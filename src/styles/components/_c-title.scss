@@ -1,0 +1,145 @@
+// _c-title.scss
+
+.title {
+	position: relative;
+	margin: 0 0 30px 0;
+	font-family: font('secondary');
+	@include font-size(35px);
+	font-weight: 700;
+	line-height: em(45px, 35px);
+
+	@include respond-to('large') {
+		@include font-size(50px);
+		line-height: em(60px, 50px);
+	}
+
+	.banner & {
+		color: color('background');
+	}
+
+	&--highlight {
+		position: relative;
+		z-index: 1;
+
+		&::after {
+			content: '';
+			z-index: -1;
+			position: absolute;
+			right: -3px;
+			left: -3px;
+			top: 0.62em;
+			display: inline-block;
+			min-width: 100%;
+			height: em(12px, 35px);
+			margin-top: 14px;
+			background: #ffc20e;
+
+			@include respond-to('large') {
+				top: 0.55em;
+				height: em(20px, 50px);
+				margin-top: 14px;
+			}
+		}
+
+		.title > & {
+			display: inline-block;
+		}
+	}
+
+	&__backgroud {
+		color: color('background');
+	}
+
+	.site-content--secondary & {
+		color: color('background');
+	}
+
+	&:before {
+		content: '';
+		position: relative;
+		top: -12px;
+		transform: translateY(-50%);
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		margin-right: 15px;
+		background: #000;
+
+		@include respond-to('medium') {
+			width: 40px;
+			height: 3px;
+			margin-right: 20px;
+			top: -12px;
+		}
+
+		@include respond-to('large') {
+			top: -16px;
+			margin-right: 25px;
+		}
+
+		.site-content--secondary & {
+			background: color('background');
+		}
+
+		.banner & {
+			display: none;
+		}
+	}
+
+	&--secondary {
+		font-family: font('secondary');
+		@include font-size(30px);
+		font-weight: 300;
+		line-height: em(40px, 30px);
+		margin: 0 0 40px 0;
+
+		@include respond-to('medium') {
+			@include font-size(26px);
+			line-height: em(36px, 26px);
+		}
+
+		@include respond-to('large') {
+			@include font-size(30px);
+			line-height: em(40px, 30px);
+		}
+
+		&:before {
+			display: none;
+		}
+	}
+
+	&--tertiary {
+		font-family: font('secondary');
+		@include font-size(30px);
+		font-weight: 400;
+		line-height: em(50px, 30px);
+		margin: 0 0 25px 0;
+		color: color('tertiary');
+
+		@include respond-to('medium') {
+			font-family: font('secondary');
+			@include font-size(30px);
+			font-weight: 400;
+			line-height: em(38px, 30px);
+			margin: 0 0 15px 0;
+			color: color('tertiary');
+		}
+
+		@include respond-to('large') {
+			font-family: font('secondary');
+			@include font-size(40px);
+			font-weight: 400;
+			line-height: em(50px, 40px);
+			margin: 0 0 25px 0;
+			color: color('tertiary');
+		}
+
+		&:before {
+			display: none;
+		}
+
+		&--violet {
+			color: color('primary');
+		}
+	}
+}

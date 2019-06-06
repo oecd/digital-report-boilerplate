@@ -1,0 +1,65 @@
+// highlight.scss
+@import "../../styles/helpers";
+
+.highlight {
+	padding: 40px 20px;
+	font-family: font('secondary');
+	@include font-size(20px);
+	font-weight: 300;
+	line-height: em(30px, 20px);
+	background: color('tertiary');
+	color: color('background');
+
+	@include respond-to('medium') {
+		padding: 30px 20px;
+	}
+
+	@include respond-to('large') {
+		padding: 40px 30px;
+		@include font-size(30px);
+		line-height: em(40px, 30px);
+	}
+
+	b {
+		font-weight: 700;
+	}
+
+	&__link {
+		display: block;
+		margin-top: 30px;
+		font-family: font('primary');
+		@include font-size(12px);
+		font-weight: 700;
+		line-height: em(12px, 12px);
+		color: color('background');
+		text-transform: uppercase;
+		text-decoration: none;
+		@include font-size(12px);
+
+		@include respond-to('large') {
+			left: calc(20px + 10px);
+		}
+
+		img {
+			margin-right: 10px;
+			float: left;
+			display: block;
+			width: 5px;
+			height: 10px;
+		}
+	}
+}
+
+@each $color-name, $color-variants in $colors {
+	.highlight--color-#{$color-name} {
+		color: color($color-name, 'invert');
+		background: color($color-name);
+
+		@each $variant-name, $color-variant in $color-variants {
+			&-#{$variant-name} {
+				color: color($color-name, 'invert');
+				background: color($color-name, $variant-name);
+			}
+		}
+	}
+}

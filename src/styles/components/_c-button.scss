@@ -1,0 +1,69 @@
+// _c-button.scss
+
+.btn {
+	@extend button;
+	display: inline-block;
+	padding: 18px 25px 15px 25px;
+	font-family: font('primary');
+	@include font-size(12px);
+	font-weight: 700;
+	line-height: em(12px, 12px);
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: color('foreground');
+	border: 1px solid color('foreground');
+	border-radius: 25px;
+	appearance: none !important;
+	@include transition();
+
+	&--invert {
+		color: color('background');
+		border-color: color('background');
+	}
+
+	&:hover {
+		background: color('background', 'invert');
+		color: color('background');
+		border-color: color('background', 'invert');
+	}
+
+	.header-publication & {
+		display: none;
+		margin-top: 15px;
+
+		@include respond-to('medium') {
+			display: inline-block;
+			float: right;
+		}
+
+		@include respond-to('large') {
+			float: none;
+			margin-top: 100px;
+		}
+	}
+
+	.header-publication__content--mobile & {
+		display: inline-block;
+	}
+}
+
+/// Create themed btn version based on $colors variable map
+/// @variable {String} $color-name - Color's name
+/// @variable {List} $color-variant - Color's themed map
+/// @return {Mixed} .btn--color-name
+/// @require $colors
+@each $color-name, $color-variants in $colors {
+	.btn--#{$color-name} {
+		color: color($color-name, 'invert');
+		background: color($color-name);
+
+		@each $variant-name, $color-variant in $color-variants {
+			&-#{$variant-name} {
+				color: color($color-name, 'invert');
+				background: color($color-name, $variant-name);
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+// video-regular
+@import "../../styles/helpers";
+
+.video-regular {
+	&__text {
+		margin-bottom: 30px;
+		@include font-size(22px);
+		font-weight: 200;
+		font-style: italic;
+		line-height: em(32px, 22px);
+
+		@include respond-to('medium') {
+			margin-bottom: 0;
+		}
+
+		@include respond-to('large') {
+			@include font-size(35px);
+			line-height: em(45px, 35px);
+		}
+	}
+}

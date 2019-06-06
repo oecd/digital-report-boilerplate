@@ -1,0 +1,320 @@
+[
+	{
+		"name": "Allemagne",
+		"src": "https://data.oecd.org/chart/5xFG",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Ländernotiz",
+				"url": "http://www.oecd.org/germany/Employment-Outlook-Germany-DE.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/germany/Employment-Outlook-Germany-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "États-Unis",
+		"src": "https://data.oecd.org/chart/5xFM",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/unitedstates/Employment-Outlook-UnitedStates-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "France",
+		"src": "https://data.oecd.org/chart/5xFP",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Note pays",
+				"url": "http://www.oecd.org/fr/france/Employment-Outlook-France-FR.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/france/Employment-Outlook-France-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Canada",
+		"src": "https://data.oecd.org/chart/5xFT",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/canada/Employment-Outlook-Canada-EN.pdf"
+			},
+			{
+				"title": "Note pays",
+				"url": "http://www.oecd.org/fr/canada/Employment-Outlook-Canada-FR.pdf"
+			}
+		]
+	},
+	{
+		"name": "Espagne",
+		"src": "https://data.oecd.org/chart/5xFV",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Nota país",
+				"url": "http://www.oecd.org/spain/Employment-Outlook-Spain-ES.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/spain/Employment-Outlook-Spain-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Australie",
+		"src": "https://data.oecd.org/chart/5xFX",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/australia/Employment-Outlook-Australia-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Autriche",
+		"src": "https://data.oecd.org/chart/5xG0",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Ländernotiz",
+				"url": "http://www.oecd.org/austria/Employment-Outlook-Austria-DE.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/austria/Employment-Outlook-Austria-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Belgique",
+		"src": "https://data.oecd.org/chart/5xG4",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Chili",
+		"src": "https://data.oecd.org/chart/5xG6",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Colombie",
+		"src": "https://data.oecd.org/chart/5xG6",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "République tchèque",
+		"src": "https://data.oecd.org/chart/5xGb",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Danemark",
+		"src": "https://data.oecd.org/chart/5xGd",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Estonie",
+		"src": "https://data.oecd.org/chart/5xGf",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Finlande",
+		"src": "https://data.oecd.org/chart/5xGh",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Grèce",
+		"src": "https://data.oecd.org/chart/5xGj",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Hongrie",
+		"src": "https://data.oecd.org/chart/5xGk",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Islande",
+		"src": "https://data.oecd.org/chart/5xGn",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Irlande",
+		"src": "https://data.oecd.org/chart/5xGp",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Israël",
+		"src": "https://data.oecd.org/chart/5xGr",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Italie",
+		"src": "https://data.oecd.org/chart/5xGu",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Nota paese",
+				"url": "http://www.oecd.org/italy/Employment-Outlook-Italy-IT.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/italy/Employment-Outlook-Italy-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Japon",
+		"src": "https://data.oecd.org/chart/5xGw",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Note pays (Japonais)",
+				"url": "http://www.oecd.org/japan/Employment-Outlook-Japan-JP.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/japan/Employment-Outlook-Japan-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Corée",
+		"src": "https://data.oecd.org/chart/5xGy",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Note pays (Coréen)",
+				"url": "http://www.oecd.org/korea/Employment-Outlook-Korea-KO.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/korea/Employment-Outlook-Korea-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Lituanie",
+		"src": "https://data.oecd.org/chart/5xGB",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Luxembourg",
+		"src": "https://data.oecd.org/chart/5xGD",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Lettonie",
+		"src": "https://data.oecd.org/chart/5xGF",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Mexique",
+		"src": "https://data.oecd.org/chart/5xGH",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Nota país",
+				"url": "http://www.oecd.org/mexico/Employment-Outlook-Mexico-ES.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/mexico/Employment-Outlook-Mexico-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Pays-Bas",
+		"src": "https://data.oecd.org/chart/5xGK",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Norvège",
+		"src": "https://data.oecd.org/chart/5xGM",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Pologne",
+		"src": "https://data.oecd.org/chart/5xGN",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Portugal",
+		"src": "https://data.oecd.org/chart/5xGU",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "République slovaque",
+		"src": "https://data.oecd.org/chart/5wnM",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Slovénie",
+		"src": "https://data.oecd.org/chart/5xGW",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Suède",
+		"src": "https://data.oecd.org/chart/5xGY",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Suisse",
+		"src": "https://data.oecd.org/chart/5xH0",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Turquie",
+		"src": "https://data.oecd.org/chart/5xH2",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Afrique du Sud",
+		"src": "https://data.oecd.org/chart/5xH4",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": []
+	},
+	{
+		"name": "Royaume-Uni",
+		"src": "https://data.oecd.org/chart/5xH6",
+		"title": "Graphique OCDE: Taux d'emploi, Total, % de la population d'âge actif, Annuelle, 2008 – 2018",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/unitedkingdom/Employment-Outlook-UnitedKingdom-EN.pdf"
+			}
+		]
+	}
+]

@@ -1,0 +1,192 @@
+// social-sticky.scss
+@import "../../styles/helpers";
+
+.social-sticky {
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	z-index: 10;
+
+	@include respond-to('medium') {
+		top: 185px;
+		bottom: inherit;
+	}
+
+	&--old {
+		@include respond-to('medium') {
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%) translateX(100%);
+			@include transition();
+		}
+
+		&.open {
+			transform: translateY(-50%) translateX(0);
+		}
+	}
+
+	&__item {
+		position: relative;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		@include size(50px);
+		margin-top: 10px;
+		border-radius: 50%;
+		background: color('background');
+		box-shadow: 0 0 5px 0 rgba(color('foreground'), .35);
+		cursor: pointer;
+		@include transition();
+
+		@include respond-to('medium') {
+			display: flex;
+			@include size(58px);
+			margin-top: 0;
+			border: 1px solid color('foreground');
+			border-radius: 0;
+			border-top: 0;
+			box-shadow: none;
+		}
+
+		.social-sticky--old & {
+			@include respond-to('medium') {
+				float: right;
+				clear: both;
+				border: none;
+				@include size(28px);
+				padding: 9px;
+				box-sizing: content-box;
+			}
+		}
+
+		.social-sticky.open & {
+			display: flex;
+		}
+
+		&:hover {
+			.social-sticky--old & {
+				@include respond-to('medium') {
+					padding-right: 20px;
+				}
+			}
+		}
+
+		&:first-child {
+			margin-top: 0;
+
+			@include respond-to('medium') {
+				border-top: 1px solid color('foreground');
+			}
+
+			.social-sticky--old & {
+				@include respond-to('medium') {
+					border: none;
+				}
+			}
+		}
+
+		img {
+			@include size(21px);
+
+			.social-sticky--old & {
+				@include respond-to('medium') {
+					@include size(28px);
+				}
+			}
+		}
+
+		&--plus {
+			display: block;
+			border: none;
+			outline: none;
+			@include transition();
+
+			@include respond-to('medium') {
+				display: none;
+			}
+
+			.social-sticky.open & {
+				//display: block;
+				transform: rotate(45deg);
+			}
+
+			.social-sticky--old & {
+				@include respond-to('medium') {
+					position: absolute;
+					right: 0;
+					display: block;
+					height: 20px;
+					width: 10px;
+					padding: 0 9px;
+					background: none;
+					transform: translateX(-45px) scaleX(-1);
+				}
+			}
+
+			.social-sticky--old.open & {
+				@include respond-to('medium') {
+					bottom: -20px;
+					width: 28px;
+					transform: translateX(0);
+					opacity: 0;
+				}
+			}
+
+			.social-sticky--old:hover & {
+				@include respond-to('medium') {
+					opacity: 1;
+				}
+			}
+
+			&:hover {
+				.social-sticky--old & {
+					@include respond-to('medium') {
+						display: block;
+						padding-right: 9px;
+					}
+				}
+			}
+
+			&::before,
+			&::after {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 28px;
+				height: 0;
+				border-bottom: 1px solid color('foreground');
+				transform: translate(-50%, -50%);
+
+				.social-sticky--old & {
+					@include respond-to('medium') {
+						left: 9px;
+						width: 0;
+						height: 0;
+						background: none;
+						border-style: solid;
+						border-width: 7px 0 7px 7px;
+						border-color: transparent transparent transparent color('gray', 'dark');
+						transform: none;
+					}
+				}
+			}
+
+			&::after {
+				transform: translate(-50%, -50%) rotate(90deg);
+
+				.social-sticky--old & {
+					@include respond-to('medium') {
+						display: none;
+					}
+				}
+			}
+		}
+
+		@each $color-name, $color-key in map-get($colors, 'social') {
+			&.ssk-#{$color-name} {
+				background: $color-key;
+			}
+		}
+	}
+}

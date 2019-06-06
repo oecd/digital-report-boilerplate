@@ -1,0 +1,29 @@
+// _reset.scss
+@import "~normalize.css/normalize.css";
+
+* {
+	box-sizing: border-box;
+
+	&::before,
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: currentColor;
+}

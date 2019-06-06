@@ -1,0 +1,9 @@
+// credits
+@import "../../styles/helpers";
+
+.credits {
+	p {
+		color: #0f629a;
+		@include font-size(14px);
+	}
+}

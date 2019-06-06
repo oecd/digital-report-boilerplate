@@ -1,0 +1,73 @@
+// _c-select.scss
+
+.selectric {
+	$height: 50px;
+	background: color('background');
+	border: 1px solid color('gray');
+
+	.selectric-filter & {
+		background: color('gray');
+	}
+
+	&-open & {
+		background: color('background');
+		border-color: color('gray');
+	}
+
+	&-items {
+		background: color('background');
+		border: 1px solid color('gray');
+		border-top: none;
+		box-shadow: none;
+
+		ul, li {
+			@include font-size(12px);
+			line-height: em(24px, 12px);
+		}
+
+		ul {}
+
+		li {
+			padding: 0 20px;
+			font-weight: 700;
+			color: color('foreground');
+
+			&:first-child {
+				padding-top: 10px;
+			}
+			&:last-child {
+				padding-bottom: 10px;
+			}
+		}
+	}
+
+	.label {
+		height: $height;
+		margin: 0 35px 0 20px;
+		font-weight: 700;
+		line-height: $height;
+		text-transform: uppercase;
+		color: color('foreground');
+	}
+
+	.button {
+		width: 35px;
+		height: $height;
+		line-height: $height;
+		background: none;
+
+		&::after {
+			content: '\203A';
+			top: 50%;
+			left: 50%;
+			width: 35px;
+			height: 20px;
+			margin: 0;
+			line-height: 35px;
+			@include font-size(12px);
+			color: color('foreground');
+			border: none;
+			transform: translate(-50%, -50%) rotate(90deg);
+		}
+	}
+}

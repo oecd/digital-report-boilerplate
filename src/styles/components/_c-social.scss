@@ -1,0 +1,138 @@
+// _m-social.scss.scss
+@import "../../styles/helpers";
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	&--centered {
+		justify-content: center;
+	}
+
+	.key-messages & {
+		display: none;
+	}
+
+	.key-messages.open & {
+		display: flex;
+		position: absolute;
+		z-index: 2;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+	}
+
+	.key-facts & {
+		position: absolute;
+		bottom: 40px;
+		margin-top: 30px;
+	}
+
+
+	.key-facts--secondary-social & {
+		position: static;
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	.read-more & {
+		margin-top: 20px;
+	}
+
+	.header-publication & {
+		margin-top: 20px;
+	}
+
+	.highlight & {
+		margin-top: 30px;
+	}
+
+	.video__box & {
+		position: absolute;
+		display: none;
+		bottom: 0;
+		transform: translateY(-50%);
+		opacity: 0.7;
+
+		@include respond-to('medium') {
+			display: flex;
+		}
+
+		@include respond-to('large') {
+			bottom: 30px;
+		}
+	}
+
+	.header-video__video & {
+		display: flex;
+		position: absolute;
+		bottom: -80px;
+		transform: translateY(-50%);
+		opacity: 0.7;
+
+		@include respond-to('medium') {
+			bottom: 0;
+		}
+	}
+
+	.key-data & {
+		margin-top: 30px;
+	}
+
+	.box & {
+		margin-top: 20px;
+	}
+
+	&__word {
+		margin-right: 15px;
+		text-transform: uppercase;
+		text-align: center;
+		@include font-size(12px);
+		font-weight: 700;
+
+		&--invert {
+			color: color('background');
+
+			.header-video__video & {
+				color: color('background', 'invert');
+				@include respond-to('medium') {
+					color: color('background');
+				}
+			}
+		}
+
+		.social--centered & {
+			flex: 1 100%;
+			margin-right: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		background: color('gray');
+		@include size(40px);
+
+		img {
+			@include size(15px);
+		}
+
+		& + & {
+			margin-left: 15px;
+		}
+	}
+}
+
+.blockquote + .social {
+	margin-left: 40px;
+	margin-bottom: 50px;
+
+	@include respond-to('medium') {
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+}

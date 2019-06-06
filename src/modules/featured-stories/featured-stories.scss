@@ -1,0 +1,118 @@
+// featured-stories
+@import "../../styles/helpers";
+
+.featured-stories {
+	position: relative;
+	background: color('primary', 'invert');
+
+	.site-content {
+		padding: 0;
+
+		@include respond-to('medium') {
+			padding: 40px 0;
+		}
+
+		@include respond-to('large') {
+			padding: 70px 0;
+		}
+	}
+
+	&__content {
+		position: relative;
+		z-index: 2;
+		padding: 30px 0;
+		background: color('gray');
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+		@include respond-to('large') {
+			padding: 70px 0;
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			display: none;
+			width: 100vh;
+			background: color('gray');
+
+			@include respond-to('medium') {
+				display: block;
+				right: 100%;
+				width: 50vh;
+			}
+		}
+	}
+
+	&__text {
+		max-width: 340px;
+
+		@include respond-to('large') {
+			max-width: 450px;
+		}
+
+		p, li {
+			@include font-size(16px);
+			line-height: em(26px, 16px);
+			font-weight: 700;
+
+			@include respond-to('large') {
+				font-weight: 400;
+				line-height: em(34px, 16px);
+			}
+		}
+
+		ul {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		li {
+			position: relative;
+			margin-left: 20px;
+			margin-bottom: 10px;
+			font-weight: 500;
+
+			@include respond-to('large') {
+				font-weight: 400;
+			}
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 8px;
+				left: -20px;
+				display: block;
+				@include size(6px);
+				border-radius: 50%;
+				background: black;
+
+				@include respond-to('large') {
+					top: 15px;
+				}
+			}
+		}
+	}
+
+	&__img {
+		width: 100%;
+		height: 360px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		@include respond-to('medium') {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50vw;
+			height: 100%;
+		}
+	}
+}

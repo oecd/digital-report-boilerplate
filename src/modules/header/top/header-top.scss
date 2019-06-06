@@ -1,0 +1,201 @@
+// header-top.scss
+@import "../../../styles/helpers";
+
+.header-top {
+	position: relative;
+	z-index: 9;
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	@include font-size(14px);
+	background-color: white;
+	border-bottom: 1px solid #c3c3c3;
+
+	@include respond-to('medium') {
+		height: 38px;
+		background-image: linear-gradient(to bottom, white, white 90%, #f0f0f0);
+	}
+
+	&__logo {
+		float: left;
+		width: 110px;
+		height: 46px;
+		background: url('../../../images/logo-oecd-mobile@2x.png') center / 110px no-repeat;
+
+		@include respond-to('medium') {
+			float: none;
+			width: 100%;
+			height: 38px;
+			background: url('../../../images/logo-oecd-short@2x.png') left center / 35px no-repeat;
+		}
+
+		&__container {
+			border-bottom: 1px solid #99bcd4;
+
+			@include respond-to('medium') {
+				border-bottom: none;
+			}
+		}
+	}
+
+	&__nav {
+		margin: 0 -15px;
+
+		@include respond-to('medium') {
+			margin: 0;
+		}
+
+		&.is-hidden {
+			@media screen and (max-width: $screen-sm - 1) {
+				position: absolute !important;
+				clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+				clip: rect(1px, 1px, 1px, 1px);
+				padding: 0 !important;
+				border: 0 !important;
+				height: 1px !important;
+				width: 1px !important;
+				overflow: hidden;
+			}
+		}
+
+		&__toggle {
+			position: absolute;
+			top: -46px;
+			right: 0;
+			width: 50px;
+			height: 46px;
+			background: none;
+			border: none;
+
+			@include respond-to('medium') {
+				display: none;
+			}
+		}
+
+		&__list {
+			display: flex;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			flex-direction: column;
+
+			@include respond-to('medium') {
+				flex-direction: row;
+			}
+		}
+
+		&__item {
+			line-height: 45px;
+			border-style: none none solid;
+			border-width: 1px;
+			border-color: #99bcd4;
+			color: #11629a;
+
+			@include respond-to('medium') {
+				height: 38px;
+				width: (100% / 6);
+				line-height: 38px;
+				text-align: center;
+				border-style: none solid;
+				border-color: transparent;
+			}
+
+			&:last-child {
+				border-bottom-color: transparent;
+			}
+
+			&--active {
+				font-weight: bold;
+				background-color: #eef4f8;
+
+				@include respond-to('medium') {
+					background: white;
+					border-color: #c3c3c3;
+				}
+			}
+
+			&--open,
+			&.is-open {
+				position: relative;
+				background: white;
+
+				@include respond-to('medium') {
+					border-right-color: #c3c3c3;
+				}
+			}
+		}
+
+		&__link {
+			display: block;
+			padding: 0 15px;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&--toggle {
+				position: relative;
+
+				&::after {
+					content: '\25BC';
+					float: right;
+					display: inline-block;
+					margin-left: .5em;
+
+					@include respond-to('medium') {
+						float: none;
+					}
+
+					.header-top__nav__item.is-open & {
+						transform: rotateX(180deg);
+					}
+				}
+			}
+		}
+	}
+
+	&__subnav {
+		margin: 0;
+		padding: 0 15px;
+		list-style: none;
+		background-color: white;
+
+		@include respond-to('medium') {
+			position: absolute;
+			z-index: 1;
+			left: -1px;
+			right: -1px;
+			padding: 0;
+			border-style: none solid solid;
+			border-width: 1px;
+			border-color: #c3c3c3;
+		}
+
+		&__item {
+			margin: 0;
+			padding: 0;
+			line-height: 45px;
+			text-align: left;
+			border-top: 1px solid #99bcd4;
+
+			@include respond-to('medium') {
+				line-height: 20px;
+				border-top: 0;
+			}
+		}
+
+		&__link {
+			display: block;
+			padding: 0;
+			text-decoration: none;
+
+			@include respond-to('medium') {
+				padding: 6px 15px;
+			}
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+}

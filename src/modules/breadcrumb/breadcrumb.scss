@@ -1,0 +1,46 @@
+// breadcrumb.scss
+@import "../../styles/helpers";
+
+.breadcrumb {
+	display: none;
+	margin: 0 0 30px 0;
+	padding: 0;
+	list-style: none;
+
+	@include respond-to('medium') {
+		display: block;
+	}
+
+	.header-publication & {
+		color: color('background');
+	}
+
+	.header-video & {
+		display: none;
+
+		@include respond-to('large') {
+			display: block;
+		}
+	}
+
+	.header-video .header-publication & {
+		display: none;
+
+		@include respond-to('medium') {
+			display: block;
+		}
+
+		@include respond-to('large') {
+			display: none;
+		}
+	}
+
+	li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+
+	span {
+		text-decoration: underline;
+	}
+}

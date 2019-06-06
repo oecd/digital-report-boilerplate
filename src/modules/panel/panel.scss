@@ -1,0 +1,127 @@
+// panel.scss
+@import "../../styles/helpers";
+
+.panel {
+	display: none; //become flex when is open
+	order: 3;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100% - 70px);
+	width: 100vw;
+	margin-top: 30px;
+	padding: 45px;
+	text-align: center;
+	background: color('tertiary');
+	@include transition();
+
+	@include respond-to('medium') {
+		position: absolute;
+		z-index: z('dropdown');
+		top: 40px;
+		right: -100%;
+		display: flex;
+		width: 70vw;
+		height: calc(100% - 160px);
+		margin-top: 0;
+		text-align: center;
+		background: color('tertiary');
+		@include transition();
+	}
+
+	@include respond-to('large') {
+		top: 70px;
+		width: 50vw;
+		height: calc(100% - 225px); //section padding
+		padding: 20px 75px;
+	}
+
+	&.open {
+		display: flex;
+		right: 0;
+
+		@include respond-to('medium') {
+			display: flex;
+		}
+	}
+
+	&__title {
+		font-family: font('secondary');
+		@include font-size(28px);
+		font-weight: 500;
+		line-height: em(38px, 28px);
+		color: color('background');
+
+		@include respond-to('large') {
+			@include font-size(32px);
+			line-height: em(45px, 32px);
+		}
+	}
+
+	&__content {
+		width: 100%;
+		font-family: font('secondary');
+		@include font-size(26px);
+		font-weight: 300;
+		line-height: em(36px, 26px);
+		color: color('background');
+
+		@include respond-to('large') {
+			@include font-size(28px);
+			line-height: em(40px, 28px);
+		}
+	}
+
+	&__title + &__content {
+		margin-top: 20px;
+
+		@include respond-to('large') {
+			margin-top: 50px;
+		}
+	}
+
+	&__close {
+		order: 3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@include size(53px);
+		margin-top: 40px;
+		border-radius: 50%;
+		background: color('tertiary');
+		cursor: pointer;
+
+		@include respond-to('medium') {
+			position: absolute;
+			top: 50%;
+			left: -25px;
+			order: initial;
+			margin-top: 0;
+			transform: translateY(-50%);
+		}
+
+		img {
+			@include size(18px);
+		}
+	}
+}
+
+@each $color-name, $color-variants in $colors {
+	.panel--color-#{$color-name} {
+		color: color($color-name, 'invert');
+		background: color($color-name);
+
+		.panel__close {
+			color: color($color-name, 'invert');
+			background: color($color-name);
+		}
+
+		@each $variant-name, $color-variant in $color-variants {
+			&-#{$variant-name} {
+				color: color($color-name, 'invert');
+				background: color($color-name, $variant-name);
+			}
+		}
+	}
+}
+

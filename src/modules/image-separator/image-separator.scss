@@ -1,0 +1,27 @@
+// image-separator.scss
+@import '../../styles/helpers';
+
+.image-separator {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		display: none;
+		width: 100%;
+		height: 200px;
+
+		&:first-child {
+			display: block;
+		}
+
+		@include respond-to('medium') {
+			display: block;
+			width: 20%;
+			height: 108px;
+		}
+
+		@include respond-to('large') {
+			height: 200px;
+		}
+	}
+}

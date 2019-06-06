@@ -1,0 +1,320 @@
+[
+	{
+		"name": "Germany",
+		"src": "https://data.oecd.org/chart/5xyY",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Ländernotiz",
+				"url": "http://www.oecd.org/germany/Employment-Outlook-Germany-DE.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/germany/Employment-Outlook-Germany-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "United States",
+		"src": "https://data.oecd.org/chart/5xzf",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/unitedstates/Employment-Outlook-UnitedStates-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "France",
+		"src": "https://data.oecd.org/chart/5xzi",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Note pays",
+				"url": "http://www.oecd.org/fr/france/Employment-Outlook-France-FR.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/france/Employment-Outlook-France-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Canada",
+		"src": "https://data.oecd.org/chart/5xzo",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/canada/Employment-Outlook-Canada-EN.pdf"
+			},
+			{
+				"title": "Note pays",
+				"url": "http://www.oecd.org/fr/canada/Employment-Outlook-Canada-FR.pdf"
+			}
+		]
+	},
+	{
+		"name": "Spain",
+		"src": "https://data.oecd.org/chart/5xzs",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Nota país",
+				"url": "http://www.oecd.org/spain/Employment-Outlook-Spain-ES.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/spain/Employment-Outlook-Spain-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Australia",
+		"src": "https://data.oecd.org/chart/5xzz",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/australia/Employment-Outlook-Australia-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Austria",
+		"src": "https://data.oecd.org/chart/5xzB",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Ländernotiz",
+				"url": "http://www.oecd.org/austria/Employment-Outlook-Austria-DE.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/austria/Employment-Outlook-Austria-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Belgium",
+		"src": "https://data.oecd.org/chart/5xzE",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Chile",
+		"src": "https://data.oecd.org/chart/5xzF",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Colombia",
+		"src": "https://data.oecd.org/chart/5xzI",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Czech Republic",
+		"src": "https://data.oecd.org/chart/5xzK",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Denmark",
+		"src": "https://data.oecd.org/chart/5xzM",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Estonia",
+		"src": "https://data.oecd.org/chart/5xzP",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Finland",
+		"src": "https://data.oecd.org/chart/5xzR",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Greece",
+		"src": "https://data.oecd.org/chart/5xA0",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Hungary",
+		"src": "https://data.oecd.org/chart/5xA3",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Iceland",
+		"src": "https://data.oecd.org/chart/5xA7",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Ireland",
+		"src": "https://data.oecd.org/chart/5xA5",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Israel",
+		"src": "https://data.oecd.org/chart/5xAa",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Italy",
+		"src": "https://data.oecd.org/chart/5xAd",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Nota paese",
+				"url": "http://www.oecd.org/italy/Employment-Outlook-Italy-IT.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/italy/Employment-Outlook-Italy-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Japan",
+		"src": "https://data.oecd.org/chart/5xAf",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note (Japanese)",
+				"url": "http://www.oecd.org/japan/Employment-Outlook-Japan-JP.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/japan/Employment-Outlook-Japan-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Korea",
+		"src": "https://data.oecd.org/chart/5xAh",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note (Korean)",
+				"url": "http://www.oecd.org/korea/Employment-Outlook-Korea-KO.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/korea/Employment-Outlook-Korea-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Lithuania",
+		"src": "https://data.oecd.org/chart/5xAj",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Luxembourg",
+		"src": "https://data.oecd.org/chart/5xAm",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Latvia",
+		"src": "https://data.oecd.org/chart/5xAo",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Mexico",
+		"src": "https://data.oecd.org/chart/5xAq",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Nota país",
+				"url": "http://www.oecd.org/mexico/Employment-Outlook-Mexico-ES.pdf"
+			},
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/mexico/Employment-Outlook-Mexico-EN.pdf"
+			}
+		]
+	},
+	{
+		"name": "Netherlands",
+		"src": "https://data.oecd.org/chart/5xAs",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Norway",
+		"src": "https://data.oecd.org/chart/5xAu",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Poland",
+		"src": "https://data.oecd.org/chart/5wnI",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Portugal",
+		"src": "https://data.oecd.org/chart/5wnK",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Slovak Republic",
+		"src": "https://data.oecd.org/chart/5wnM",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Slovenia",
+		"src": "https://data.oecd.org/chart/5wnO",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Sweden",
+		"src": "https://data.oecd.org/chart/5xAx",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Switzerland",
+		"src": "https://data.oecd.org/chart/5xAA",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "Turkey",
+		"src": "https://data.oecd.org/chart/5xAC",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "South Africa",
+		"src": "https://data.oecd.org/chart/5wnV",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": []
+	},
+	{
+		"name": "United Kingdom",
+		"src": "https://data.oecd.org/chart/5xzV",
+		"title": "OECD Chart: Employment rate, Total, % of working age population, Annual, 2008 – latest",
+		"links": [
+			{
+				"title": "Country note",
+				"url": "http://www.oecd.org/unitedkingdom/Employment-Outlook-UnitedKingdom-EN.pdf"
+			}
+		]
+	}
+]

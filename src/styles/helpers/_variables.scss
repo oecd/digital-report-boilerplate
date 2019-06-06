@@ -1,0 +1,124 @@
+// _variables.scss
+
+$screen-xs: 480px; // @respond-to ('small') and overwrite bootstrap grid. Overwrite grid
+$screen-sm: 768px; // @respond-to ('medium') and overwrite bootstrap grid. Overwrite grid
+$screen-md: 1024px; // @respond-to ('large') and overwrite bootstrap grid. Overwrite grid
+$screen-lg: 1310px; // @respond-to ('huge') and overwrite bootstrap grid. Overwrite grid 1313 design + 40px <- margin
+$grid-gutter-width: 40px; // Overwrite grid ( gutters are / 2 visually )
+
+$font-size-base: 16px; // required by rem() mixins
+$transition-duration: 300ms; // required by transition() mixins
+$icomoon-font-path: '../fonts/ao-icon-agenceo';
+
+//-------------------------------------------------------------------//
+
+/// Colors map, gathering all colors of the application
+/// @access private
+/// @type Map
+/// @prop {String} key - color name
+/// @prop {Hex} value - color value mapped to the key
+$color-key: 'base' !default;
+$colors: (
+	'primary': (
+		'base': #6a1b9a,
+		'invert': #FFFFFF
+	),
+	'secondary': (
+		'base': #0b1e2d,
+		'invert': #FFFFFF // To defined
+	),
+	'tertiary': (
+		'base': #fd6a02,
+		'invert': #FFFFFF
+	),
+	'fourth': (
+		'base': #548235,
+		'invert': #FFFFFF
+	),
+	'five': (
+		'base': #dd2c00,
+		'invert': #FFFFFF
+	),
+	'foreground':(
+		'base': #0b1e2d, // Black
+		'light': #2e4558, // Dark blue
+		'invert': #FFFFFF // White
+	),
+	'background': (
+		'base': #FFFFFF, // White
+		'invert': #0b1e2d // Black
+	),
+	'gray': (
+		'base': #e6ebe9, // Gray
+		'dark': #c0c7c9, // Dark gray
+		'invert': #FFFFFF // White
+	),
+	'social': (
+		'base': #000, // Unused but required
+		'dailymotion': #00AAFf, // Dailymotion
+		'email': #757575, // Email
+		'emerald': #2ecc71, // Emerald
+		'facebook': #3B5998, // Facebook
+		'googleplus': #DB4437, // Google+
+		'instagram': #b900b4, // Instagram
+		'linkedin': #0077B5, // LinkedIn
+		'pinterest': #BD081C, // Pinterest
+		'snapchat': #FFFC00, // SnapChat
+		'twitter': #1DA1F2, // Twitter
+		'vimeo': #1ab7ea, // Vimeo
+		'whatsapp': #25D366, // WhatsApp
+		'youtube': #CD201F, // YouTube
+		'invert': #FFF // Unused but required
+	),
+	'oecd': (
+		'base': #0b71b0,
+		'dark': #11629A,
+		'light': #578FB8,
+		'lighter': #8FB4CF,
+		'invert': #FFFFFF
+	),
+);
+
+/// Fonts map, gathering all fonts of the application
+/// @access private
+/// @type Map
+/// @prop {String} key - font name
+/// @prop {String} value - font value mapped to the key
+$font-key: 'base' !default;
+$fonts: (
+	'primary': (
+		'base': ('Noto Sans Display', sans-serif)
+	),
+	'secondary': (
+		'base': ('Oswald', sans-serif),
+		'alt': ('Roboto', sans-serif),
+	),
+	'icon': (
+		'base':('ao-icon-agenceo')
+	)
+);
+
+/// Breakpoints map, gathering all breakpoints of the application
+/// @access private
+/// @type Map
+/// @prop {String} key - Size's name
+/// @prop {Number} value - min-width value mapped to the key
+$breakpoints: (
+	'small': (min-width: $screen-xs), // never used normaly
+	'medium': (min-width: $screen-sm),
+	'large': (min-width: $screen-md),
+	'huge': (min-width: $screen-lg),
+	'insane': (min-width: 2560px) // >4K ('-.-)
+);
+
+/// Z-indexes map, gathering all Z layers of the application
+/// @access private
+/// @type Map
+/// @prop {String} key - Layers name
+/// @prop {Number} value - Z value mapped to the key
+$z-indexes: (
+	'modal': 5000,
+	'dropdown': 4000,
+	'default': 1,
+	'below': -1,
+);

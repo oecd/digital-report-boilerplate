@@ -1,0 +1,257 @@
+// key-facts.scss
+@import "../../styles/helpers";
+
+.key-facts {
+	position: relative;
+	margin-top: 15px;
+	padding-bottom: 50px;
+
+	@include respond-to('medium') {
+		margin-top: 30px;
+		padding-top: 0;
+		padding-bottom: 70px;
+	}
+
+	@include respond-to('large') {
+		padding-bottom: 0;
+	}
+
+	&__filter {
+		@include respond-to('large') {
+			position: relative;
+			top: 10px;
+		}
+	}
+
+	&__content {
+		position: relative;
+
+		@include respond-to('large') {
+			margin-left: percentage(290px / 1280px);
+
+		}
+
+		.key-facts--secondary & {
+			@include respond-to('large') {
+				margin-left: percentage(220px / 1280px);
+			}
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 100%;
+			z-index: 2;
+			width: 50vw;
+			height: 100%;
+			background: color('secondary');
+
+			.key-facts--secondary & {
+				background: color('gray');
+			}
+		}
+	}
+
+	&__slide {
+		position: relative;
+		min-height: 400px;
+		padding: 40px 30px;
+		font-family: font('secondary');
+		@include font-size(25px);
+		font-weight: 300;
+		line-height: em(35px, 25px);
+		background: color('tertiary');
+
+		@include respond-to('large') {
+			min-height: 495px;
+			@include font-size(30px);
+			line-height: em(40px, 30px);
+		}
+
+		.key-facts--secondary & {
+			min-height: 440px;
+			@include font-size(30px);
+			line-height: em(40px, 30px);
+			background: color('background');
+
+			@include respond-to('medium') {
+				min-height: 460px;
+			}
+
+			@include respond-to('large') {
+				min-height: 440px;
+			}
+		}
+
+		.key-facts--secondary-social & {
+			min-height: 500px;
+			@include font-size(30px);
+			line-height: em(40px, 30px);
+			background: color('background');
+
+			@include respond-to('medium') {
+				min-height: 510px;
+			}
+
+			@include respond-to('large') {
+				min-height: 500px;
+			}
+		}
+
+		b {
+			font-weight: 700;
+		}
+	}
+
+	.slick-slide {
+		margin: 0 7px;
+
+		@include respond-to('large') {
+			margin: 0 20px;
+		}
+	}
+
+	.slick-list {
+		overflow: visible;
+	}
+
+	/* the parent */
+	.slick-list {
+		margin: 0 -4px;
+
+		@include respond-to('large') {
+			margin: 0 -10px;
+		}
+	}
+
+	&__link-box {
+		position: absolute;
+		bottom: 30px;
+
+		@include respond-to('medium') {
+			bottom: 40px;
+		}
+	}
+
+	&__link {
+		position: absolute;
+		left: 30px;
+		bottom: 30px;
+
+		.key-facts__link-box & {
+			position: static;
+			display: block;
+		}
+
+		& + & {
+			.key-facts__link-box & {
+				margin-top: 10px;
+			}
+		}
+
+		img {
+			position: relative;
+			top: 1px;
+			margin-right: 10px;
+			width: 5px;
+			float: left;
+		}
+	}
+
+	&__controls {
+		position: absolute;
+		z-index: 4;
+		left: 0;
+		bottom: -22px;
+		//top: -22px;
+
+		//.key-facts--secondary & {
+		//top: initial;
+		//bottom: 0;
+		//}
+
+		@include respond-to('medium') {
+			top: auto;
+			bottom: 0;
+		}
+
+		&::before {
+			@include respond-to('large') {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: -38px;
+				display: block;
+				width: 1px;
+				height: 116px;
+				background: color('background');
+
+				.key-facts--secondary & {
+					background: color('background', 'invert');
+				}
+			}
+		}
+	}
+
+	.slider__control {
+		position: relative;
+		float: left;
+		display: block;
+		@include size(45px);
+		color: color('background');
+		background: transparent;
+		border: 1px solid currentColor;
+		border-radius: 50%;
+		outline: none;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 11px;
+			height: 11px;
+			border: 2px solid currentColor;
+			border-right: none;
+			border-bottom: none;
+			transform: translate(-66%, -50%) rotate(135deg);
+		}
+
+		&--prev {
+			margin-right: 5px;
+
+			@include respond-to('medium') {
+				margin-right: 9px;
+			}
+
+			&::before {
+				transform: translate(-33%, -50%) rotate(-45deg);
+			}
+		}
+	}
+
+	&--secondary {
+		.slider__control {
+			color: color('secondary');
+		}
+	}
+
+	iframe {
+		width: 100%;
+		height: 230px;
+		margin-top: 15px;
+	}
+
+	.slick-list {
+		width: 280px;
+
+		@include respond-to('medium') {
+			width: 555px;
+		}
+
+		@include respond-to('large') {
+			width: 100%;
+		}
+	}
+}

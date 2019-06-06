@@ -1,0 +1,51 @@
+// _c-pagination.scss
+
+.pagination {
+
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    padding: 0;
+    color: rgba(#164b60, .5);
+    text-align: center;
+    @include transition();
+
+    &.is-current {
+      color: color('foreground');
+      font-weight: 700;
+    }
+
+    &:hover {
+      color: color('primary');
+    }
+
+    &--prev {
+      margin-right: 10px;
+    }
+
+    &--next {
+      margin-left: 10px;
+    }
+  }
+
+  &__link {
+    display: block;
+    @include size(30px);
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid transparent;
+
+    .pagination__item--next &,
+    .pagination__item--prev & {
+      border-color: color('foreground');
+      border-radius: 50%;
+      color: color('foreground');
+    }
+  }
+}

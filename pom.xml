@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.oecd.web</groupId>
+  <artifactId>t4-digital-report</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <scm>
+    <developerConnection>scm:git:https://github.com/cis-itn-oecd/t4-digital-report</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Internal Releases</name>
+      <url>https://dev-entrep-1/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Internal Snapshots</name>
+      <url>https://dev-entrep-1/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <build>
+    <resources>
+      <resource>
+        <directory>dist</directory>
+        <filtering>true</filtering>
+        <includes>
+          <include>index.html</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>dist</directory>
+        <filtering>false</filtering>
+        <excludes>
+          <exclude>index.html</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>1.6</version>
+        <executions>
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <phase>generate-resources</phase>
+          </execution>
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
+          <execution>
+            <id>npm build app</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>run build:prod:en</arguments>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <workingDirectory></workingDirectory>
+          <installDirectory></installDirectory>
+          <nodeVersion>v10.13.0</nodeVersion>
+          <npmVersion>6.4.1</npmVersion>
+          <nodeDownloadRoot>https://dev-entrep-1/nexus/content/sites/node_installers/</nodeDownloadRoot>
+          <npmDownloadRoot>http://dev-entrep-1.main.oecd.org:8081/nexus/content/repositories/npmregistry/npm/-/
+          </npmDownloadRoot>
+        </configuration>
+
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

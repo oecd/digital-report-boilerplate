@@ -1,0 +1,133 @@
+// site-header.scss
+@import "../../../styles/helpers";
+
+.site-header {
+	display: none;
+	height: 99px;
+
+	@include respond-to('medium') {
+		display: block;
+	}
+
+	&:after {
+		display: table;
+		content: " ";
+		clear: both;
+	}
+
+	&__search {
+		height: 100%;
+		float: right;
+		width: 100%;
+
+		@include respond-to('medium') {
+			width: auto;
+		}
+
+		> * {
+			float: left;
+		}
+
+		.navbar-form {
+			padding: 0;
+		}
+
+		&__content {
+			position: relative;
+			float: left;
+			height: 100%;
+			padding-left: 5px;
+			background: #8CC841;
+
+			&::before {
+				/* Triangle */
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 100%;
+				display: block;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 0 99px 80px;
+				border-color: transparent transparent #8CC841 transparent;
+			}
+
+			&::after {
+				float: left;
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 100%;
+				display: block;
+				width: 50vw;
+				height: 100%;
+				background: #8CC841;
+			}
+		}
+
+		&__a-z {
+			margin-top: 15px;
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+		&__input {
+			width: 170px;
+			height: 34px;
+			margin: 0px;
+			border: none transparent;
+			border-radius: 3px;
+			outline: none;
+			padding: 8px 0;
+			text-indent: 48px;
+			background: url('http://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png') 0% 50% / auto no-repeat scroll padding-box border-box rgb(255, 255, 255);
+			box-shadow: none;
+			opacity: 1;
+
+			#search-form-mb & {
+				//width: calc(100% - 53px);
+			}
+
+			&:focus {
+				background: color('background');
+				text-indent: initial;
+				padding: 8px 5px;
+			}
+
+			@include input-placeholder {
+				@include font-size(12px);
+			}
+		}
+
+		&__btn {
+			position: relative;
+			top: 3px;
+			//display: inline-flex;
+			//justify-content: center;
+			//align-items: center;
+			width: 35px;
+			height: 35px;
+			border: 0;
+			border-radius: 3px;
+			padding: 0;
+			background-color: #11629A;
+			color: color('background');
+
+			#search-form-mb & {
+				margin-left: 10px;
+				background-color: #578FB8;
+			}
+
+			img {
+				@include size(15px)
+			}
+		}
+	}
+}
+
+#search-form-mb {
+	width: 100%;
+}

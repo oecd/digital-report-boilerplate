@@ -1,0 +1,14 @@
+// _l-container.scss
+
+.container {
+	max-width: $screen-lg;
+	margin: auto;
+
+	&:before {
+		.site-header__wrapper & {
+			display: table;
+			content: " ";
+			clear: both;
+		}
+	}
+}

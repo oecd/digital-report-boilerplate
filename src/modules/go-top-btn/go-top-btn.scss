@@ -1,0 +1,32 @@
+// go-top-btn
+@import "../../styles/helpers";
+
+.go-top-btn {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	right: 20px;
+	bottom: 20px;
+	@include size(50px);
+	border-radius: 50%;
+	box-shadow: 0 0 13.65px 1.35px rgba(11, 30, 45, 0.3);
+	background: color('background');
+	cursor: pointer;
+	transition: all 0.5s;
+
+	&:hover {
+		@include size(52px);
+	}
+
+	img {
+		transform: rotate(-90deg);
+		width: 8px;
+		height: 15px;
+
+		&:last-child {
+			margin-top: -5px;
+		}
+	}
+}

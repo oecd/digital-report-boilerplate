@@ -1,0 +1,74 @@
+// burger.scss
+
+.burger {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 3px;
+	margin: auto;
+	background: color('oecd');
+	@include transition();
+
+	@include respond-to('medium') {
+		width: 30px;
+	}
+
+	.header-top__nav__toggle.is-open &,
+	.main-nav__toggle.is-open & {
+		background: none;
+	}
+
+	.main-nav__toggle & {
+		background: color('oecd', 'invert');
+	}
+
+	&::before,
+	&::after {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: color('oecd');
+		transition: transform $transition-duration, top $transition-duration $transition-duration, bottom $transition-duration $transition-duration;
+		transition-timing-function: $transition-type;
+
+		.header-top__nav__toggle.is-open &,
+		.main-nav__toggle.is-open & {
+			transition: top $transition-duration, bottom $transition-duration, transform $transition-duration $transition-duration;
+			transition-timing-function: $transition-type;
+		}
+
+		.main-nav__toggle & {
+			background: color('oecd', 'invert');
+		}
+	}
+
+	&::before {
+		top: -6px;
+
+		@include respond-to('medium') {
+			top: -10px;
+		}
+
+		.header-top__nav__toggle.is-open &,
+		.main-nav__toggle.is-open & {
+			top: 0;
+			transform: rotate(-45deg);
+		}
+	}
+
+	&::after {
+		bottom: -6px;
+
+		@include respond-to('medium') {
+			bottom: -10px;
+		}
+
+		.header-top__nav__toggle.is-open &,
+		.main-nav__toggle.is-open & {
+			bottom: 0;
+			transform: rotate(45deg);
+		}
+	}
+}

@@ -1,0 +1,62 @@
+// publications.scss
+@import "../../styles/helpers";
+
+
+.publications {
+	&__cover {
+		display: block;
+		margin: 0 auto;
+		border: 1px solid #e3e3e3;
+
+		@include respond-to('small') {
+			margin: 0;
+		}
+	}
+
+	&__intro {
+		margin: em(15px, 24px) 0 em(20px, 24px);
+		@include font-size(18px);
+		line-height: em(28px, 18px);
+		font-weight: 500;
+
+		@include respond-to('large') {
+			margin: em(15px, 24px) 0 em(20px, 24px);
+			@include font-size(24px);
+			line-height: em(34px, 24px);
+			font-weight: 500;
+		}
+	}
+
+	&__links {
+		position: relative;
+		margin: 0;
+		padding: 50px 0;
+		list-style: none;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -30px;
+			min-height: 100%;
+			border-left: 1px solid #e3e3e3;
+		}
+
+		&__item {
+
+			@include respond-to('medium') {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			@include respond-to('large') {
+				display: block;
+				margin-right: 0;
+			}
+
+			& + & {
+				margin-top: 30px;
+			}
+		}
+	}
+}

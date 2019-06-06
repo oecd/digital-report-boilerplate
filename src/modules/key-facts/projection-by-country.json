@@ -1,0 +1,1024 @@
+[
+	{
+		"name": "Argentina",
+		"src": "https://data.oecd.org/chart/5wim",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Argentina",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Australia",
+		"src": "https://data.oecd.org/chart/5wis",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Australia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Austria",
+		"src": "https://data.oecd.org/chart/5wiw",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Austria",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Belgium",
+		"src": "https://data.oecd.org/chart/5wiu",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Belgium",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Brazil",
+		"src": "https://data.oecd.org/chart/5wjo",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Português",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Brazil",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Canada",
+		"src": "https://data.oecd.org/chart/5wid",
+		"title": "OECD Chart: Domestic demand forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Canada",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Chile",
+		"src": "https://data.oecd.org/chart/5wjq",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Chile",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "China",
+		"src": "https://data.oecd.org/chart/5wiy",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "China",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Colombia",
+		"src": "https://data.oecd.org/chart/5wiA",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Colombia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Costa Rica",
+		"src": "https://data.oecd.org/chart/5wiC",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Costa Rica",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Czech Republic",
+		"src": "https://data.oecd.org/chart/5xIl",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Czech Republic",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Denmark",
+		"src": "https://data.oecd.org/chart/5xIo",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Denmark",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Estonia",
+		"src": "https://data.oecd.org/chart/5xI",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Estonia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Euro area",
+		"src": "https://data.oecd.org/chart/5wiG",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Euro area",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Finland",
+		"src": "https://data.oecd.org/chart/5wiI",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Finland",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "France",
+		"src": "https://data.oecd.org/chart/5xIr",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "France",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Germany",
+		"src": "https://data.oecd.org/chart/5wiL",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Germany",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Greece",
+		"src": "https://data.oecd.org/chart/5xIt",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Greece",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Hungary",
+		"src": "https://data.oecd.org/chart/5wiN",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Hungary",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Iceland",
+		"src": "https://data.oecd.org/chart/5wiP",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Iceland",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "India",
+		"src": "https://data.oecd.org/chart/5wiR",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "India",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Indonesia",
+		"src": "https://data.oecd.org/chart/5wiT",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Indonesia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Ireland",
+		"src": "https://data.oecd.org/chart/5wiW",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Ireland",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Israel",
+		"src": "https://data.oecd.org/chart/5xIw",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Israel",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Italy",
+		"src": "https://data.oecd.org/chart/5xIz",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Italy",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Japon",
+		"src": "https://data.oecd.org/chart/5wjs",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Japon",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Korea",
+		"src": "https://data.oecd.org/chart/5wiY",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Korea",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Latvia",
+		"src": "https://data.oecd.org/chart/5xIB",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Latvia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Lithuania",
+		"src": "https://data.oecd.org/chart/5xID",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Lithuania",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Luxembourg",
+		"src": "https://data.oecd.org/chart/5wj0",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Luxembourg",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Mexico",
+		"src": "https://data.oecd.org/chart/5wj2",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Mexico",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Netherlands",
+		"src": "https://data.oecd.org/chart/5wj4",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Netherlands",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "New Zealand",
+		"src": "https://data.oecd.org/chart/5wj6",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "New Zealand",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Norway",
+		"src": "https://data.oecd.org/chart/5wju",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Norway",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Poland",
+		"src": "https://data.oecd.org/chart/5wj8",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Poland",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Portugal",
+		"src": "https://data.oecd.org/chart/5xIF",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Português",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Portugal",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Russia",
+		"src": "https://data.oecd.org/chart/5wja",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Russia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Slovak Republic",
+		"src": "https://data.oecd.org/chart/5wjc",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Slovak Republic",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Slovenia",
+		"src": "https://data.oecd.org/chart/5wjw",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Slovenia",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "South Africa",
+		"src": "https://data.oecd.org/chart/5wjf",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "South Africa",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Spain",
+		"src": "https://data.oecd.org/chart/5xIH",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			},
+			{
+				"title": "Español",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Spain",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Sweden",
+		"src": "https://data.oecd.org/chart/5xIJ",
+		"title": "OECD Chart: Unemployment rate forecast, Total, % of labour force, Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Sweden",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Switzerland",
+		"src": "https://data.oecd.org/chart/5wji",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Switzerland",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "Turkey",
+		"src": "https://data.oecd.org/chart/5wjz",
+		"title": "OECD Chart: Inflation forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "Turkey",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	},
+	{
+		"name": "United Kingdom",
+		"src": "https://data.oecd.org/chart/5wjk",
+		"title": "OECD Chart: Real GDP forecast, Total, Annual growth rate (%), Annual, 2011 – 2020",
+		"links": [
+			{
+				"title": "Country profile",
+				"url": "#"
+			},
+			{
+				"title": "Economic snapshot",
+				"url": "#"
+			}
+		],
+		"social": [
+			{
+				"dataTitle": "United Kingdom",
+				"dataText": "Find out more ➡️",
+				"dataUrl": "https://oe.cd/employment-outlook"
+			}
+		]
+	}
+]

@@ -1,0 +1,172 @@
+// key-topics.scss
+@import "../../styles/helpers";
+
+.key-topics {
+	position: relative;
+	padding-bottom: 75px;
+
+	@include respond-to('medium') {
+		padding-bottom: 75px;
+	}
+
+	&__content {
+		margin-top: 30px;
+	}
+
+	&__slider {
+	}
+
+	&__controls {
+		position: absolute;
+		left: 20px;
+		bottom: -80px;
+		z-index: 1;
+
+		@include respond-to('medium') {
+			bottom: -75px;
+		}
+
+		@include respond-to('large') {
+			left: -203px;
+		}
+
+		&::before {
+			@include respond-to('large') {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: -38px;
+				display: block;
+				width: 1px;
+				height: 116px;
+				background: color('background', 'invert');
+			}
+		}
+
+		.slider__control {
+			position: relative;
+			float: left;
+			display: block;
+			@include size(45px);
+			color: color('secondary');
+			background: transparent;
+			border: 1px solid currentColor;
+			border-radius: 50%;
+			outline: none;
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 11px;
+				height: 11px;
+				border: 2px solid currentColor;
+				border-right: none;
+				border-bottom: none;
+				transform: translate(-66%, -50%) rotate(135deg);
+			}
+
+			&--prev {
+				margin-right: 5px;
+
+				@include respond-to('medium') {
+					margin-right: 9px;
+				}
+
+				&::before {
+					transform: translate(-33%, -50%) rotate(-45deg);
+				}
+			}
+		}
+	}
+
+	.slick-list {
+		overflow: visible;
+	}
+
+	&__slide {
+		position: relative;
+		height: 150px;
+		display: block;
+		text-decoration: none;
+		//margin-right: 20px;
+		margin-bottom: 20px;
+		padding: 20px;
+		background: color('secondary');
+		color: color('background');
+
+		@include respond-to('medium') {
+			height: 160px;
+		}
+
+		@include respond-to('large') {
+			height: 240px;
+			padding: 20px 25px;
+		}
+	}
+
+	.slick-slide {
+		margin: 0 10px;
+	}
+
+	/* the parent */
+	.slick-list {
+		margin: 0 -10px;
+	}
+
+	&__title {
+		display: flex;
+		align-items: center;
+		position: relative;
+		font-family: font('secondary');
+		@include font-size(26px);
+		font-weight: 700;
+		line-height: em(36px, 26px);
+
+		@include respond-to('large') {
+			@include font-size(30px);
+			line-height: em(40px, 30px);
+		}
+
+		&__nb {
+			margin-right: 10px;
+			@include font-size(45px);
+			font-weight: 700;
+			line-height: em(50px, 45px);
+		}
+
+		&__content {
+			float: left;
+			@include font-size(20px);
+			font-weight: 700;
+			line-height: em(30px, 20px);
+			text-transform: uppercase;
+		}
+	}
+
+	&__img {
+		width: 130px;
+		margin: auto;
+	}
+
+	&__link {
+		position: absolute;
+		left: calc(10px + 10px); // 20px padding + 10px mage list
+		bottom: 20px;
+		color: color('background');
+
+		@include respond-to('large') {
+			left: calc(20px + 10px);
+			bottom: 25px;
+		}
+
+		img {
+			position: absolute;
+			left: -15px;
+			display: block;
+			width: 5px;
+			height: 10px;
+		}
+	}
+}

@@ -1,0 +1,61 @@
+// key-facts-slider.scss
+@import "../../styles/helpers";
+
+.key-facts-slider {
+	width: 100%;
+
+	&__controls {
+		display: flex;
+		flex-wrap: wrap;
+		float: right;
+		margin-right: 0;
+		margin-bottom: 20px;
+
+		@include respond-to('medium') {
+			position: absolute;
+			top: 5px;
+			right: 0;
+			z-index: 9999;
+			margin-right: 45px;
+			margin-bottom: 0;
+		}
+
+		@include respond-to('large') {
+			top: 10px;
+			right: 115px;
+		}
+	}
+
+	&__next,
+	&__prev {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@include size(45px);
+		border: 1px solid color('background', 'invert');
+		border-radius: 50%;
+		cursor: pointer;
+		background: color('background');
+
+		img {
+			width: 10px;
+		}
+	}
+
+	&__prev {
+		margin-right: 10px;
+		transform: rotate(180deg);
+	}
+
+	&__content {
+		margin-top: 40px;
+
+		@include respond-to('medium') {
+			margin-top: 40px;
+		}
+
+		@include respond-to('large') {
+			margin-top: 70px;
+		}
+	}
+}

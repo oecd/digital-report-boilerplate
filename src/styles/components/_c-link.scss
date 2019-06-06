@@ -1,0 +1,47 @@
+// _c-link.scss
+
+.link {
+	font-family: font('primary');
+	font-weight: 700;
+	@include font-size(12px);
+	line-height: 1;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	.breadcrumb & {
+		position: relative;
+		margin-left: 15px;
+		font-weight: 400;
+		text-transform: none;
+	}
+
+	.breadcrumb li:first-child & {
+		margin-left: 0;
+	}
+
+	&::before { // small arrow
+		position: relative;
+		top: -1px;
+		content: '\203a';
+		margin-right: 0.33em;
+		text-decoration: none;
+
+		.breadcrumb li:first-child & {
+			display: none;
+		}
+
+		.breadcrumb & {
+			position: absolute;
+			top: 45%;
+			transform: translateY(-50%);
+			left: -20px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+	}
+
+	.panel & {
+		margin-top: 40px;
+		color: color('background');
+	}
+}

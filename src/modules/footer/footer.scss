@@ -1,0 +1,187 @@
+// footer.scss
+@import "../../styles/helpers";
+
+.oecd-footer {
+	@include font-size(14px);
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.oecd-institutional-footer {
+	padding: 10px 0;
+	background-color: #eef4f8;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0b71b0;
+
+	&__name {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	&__link {
+		display: block;
+	}
+}
+
+.oecd-shared-footer {
+	padding: 20px 0;
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+
+	&--dark {
+		background-color: #343434;
+	}
+
+	&--light {
+		background-color: #0f629a;
+	}
+
+	a {
+		color: white;
+	}
+
+	&__logo-and-copyright {
+		zoom: 1;
+
+		&::before,
+		&::after {
+			content: "";
+			display: table;
+		}
+
+		&::after {
+			clear: both;
+		}
+	}
+
+	&__logo {
+		margin-bottom: 10px;
+		width: 152px;
+		height: 40px;
+		background: url('../../images/logo-oecd-footer.png') center / contain no-repeat;
+
+		&--fr {
+			background-image: url('../../images/logo-ocde-footer.png');
+		}
+	}
+
+	&__copyright {
+		.oecd-shared-footer--dark & {
+			color: #a4a1a1;
+		}
+
+		.oecd-shared-footer--light & {
+			color: #cacaca;
+		}
+
+		&-first, &-second {
+			@include respond-to('medium') {
+				display: block;
+			}
+		}
+	}
+
+	&__links,
+	&__icons {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		zoom: 1;
+
+		&::before,
+		&::after {
+			content: "";
+			display: table;
+		}
+
+		&::after {
+			clear: both;
+		}
+	}
+
+	&__link {
+		display: block;
+
+		&-item {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__icon {
+		float: left;
+		margin-right: 5px;
+
+		@include respond-to('medium') {
+			margin-bottom: 5px;
+		}
+
+		&-link {
+			width: 35px;
+			height: 35px;
+			display: block;
+			white-space: nowrap;
+			text-indent: 110%;
+			background: url('../../images/social-buttons.png') no-repeat center;
+			overflow: hidden;
+			opacity: 0.85;
+			@include transition(300ms, $property: opacity);
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__social-media {
+		clear: both;
+		padding-top: 10px;
+
+		@include respond-to('medium') {
+			clear: none;
+			padding-top: 0;
+		}
+
+		> p {
+			margin-top: 0;
+		}
+	}
+
+	&__facebook {
+		background-position: 0 0;
+	}
+
+	&__twitter {
+		background-position: 0 -35px;
+	}
+
+	&__youtube {
+		background-position: 0 -70px;
+	}
+
+	&__linkedin {
+		background-position: 0 -105px;
+	}
+
+	&__rss {
+		background-position: 0 -140px;
+	}
+
+	&__flickr {
+		background: url('../../images/SocialButtons-flickr.png') no-repeat center;
+	}
+
+	&__oecddirect {
+		background: url('../../images/SocialButtons-mailalerts.png') no-repeat center;
+	}
+
+	&__instagram {
+		background: url('../../images/instagram-35x35.png') no-repeat center;
+	}
+
+}

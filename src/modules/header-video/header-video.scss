@@ -1,0 +1,31 @@
+// header-video
+@import "../../styles/helpers";
+
+.header-video {
+	&__wrapper {
+		position: relative;
+	}
+
+	&__video {
+		@include respond-to('large') {
+			width: 100%;
+			bottom: 25px;
+			right: 0;
+			position: absolute;
+		}
+
+		&__text {
+			margin-top: 80px;
+			@include font-size(16px);
+			line-height: em(26px, 16px);
+
+			@include respond-to('large') {
+				float: right;
+				width: 190px;
+				margin: 20px 55px 0 0;
+				@include font-size(14px);
+				line-height: em(26px, 14px);
+			}
+		}
+	}
+}
