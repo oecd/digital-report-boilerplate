@@ -6,7 +6,7 @@ Each block is hosted as an independant module inside the `src/modules` directory
 
 In our Redmine Wiki (search for Digital Reports), you'll find all necessary information, both documentation for each block as well as instructions for how to create a new Digital Report page.
 
-## Post-fork
+## Post-template creation
 
 1. Don't forget to rename the repository using only lowercase, hyphens and numbers
 2. Clone the repository to your local machine
