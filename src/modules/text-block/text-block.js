@@ -5,4 +5,4 @@
  * @modif Marc Nguyen 15/07/2019
  */
 
-import './text-box.scss';
+import './text-block.scss';
