@@ -33,3 +33,26 @@
 	visibility: visible;
 	transform: scaleX(1);
 }
+
+
+.internal-nav {
+	display: none;
+	margin: 0 -15px;
+	padding: 0;
+	list-style: none;
+	@include font-size(14px);
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	@include respond-to('medium') {
+		display: block;
+		float: left;
+		margin: 0;
+	}
+
+	&__container {
+		clear: both;
+		color: color('oecd', 'invert');
+		background-color: #0b1e2d;
+		font-weight: bold;
+	}
+}
