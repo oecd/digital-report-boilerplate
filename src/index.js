@@ -29,5 +29,6 @@ import './modules/credits/credits';
 import './modules/featured-stories/featured-stories';
 import './modules/key-facts-slider/key-facts-slider';
 import './modules/header-publication/header-publication';
+import './modules/header-publication-inner-page-nav/header-publication-inner-page-nav';
 import './modules/video-regular/video-regular';
 import './modules/header-video/header-video';

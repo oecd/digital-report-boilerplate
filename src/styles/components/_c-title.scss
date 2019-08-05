@@ -32,7 +32,7 @@
 			min-width: 100%;
 			height: em(12px, 35px);
 			margin-top: 14px;
-			background: #ffc20e;
+			background: color('background', 'highlight');
 
 			@include respond-to('large') {
 				top: 0.55em;
