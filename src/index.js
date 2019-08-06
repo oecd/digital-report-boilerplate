@@ -31,3 +31,4 @@ import './modules/key-facts-slider/key-facts-slider';
 import './modules/header-publication/header-publication';
 import './modules/video-regular/video-regular';
 import './modules/header-video/header-video';
+import './modules/text-block/text-block';
