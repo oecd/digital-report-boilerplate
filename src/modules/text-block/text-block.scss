@@ -1,0 +1,90 @@
+// key-data.scss
+@import "../../styles/helpers";
+
+.text-block {
+	position: relative;
+	margin-bottom: 20px;
+	padding: 30px 20px 20px 20px;
+
+	@include respond-to('medium') {
+		border-top: 0;
+		border-right: 0;
+		margin-bottom: 0;
+		padding-left: 60px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	@include respond-to('large') {
+		padding-left: 70px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	&:first-child {
+		@include respond-to('medium') {
+			padding-top: 0;
+		}
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&:after {
+		@include respond-to('medium') {
+			content: '';
+			position: absolute;
+			left: 50%;
+			transform: translateX(50%);
+			bottom: -1px;
+			display: block;
+			width: 50vw;
+			height: 1px;
+			background: #e7e8e9;
+		}
+
+		@include respond-to('large') {
+			display: none;
+		}
+	}
+
+	&--mt {
+		margin-top: 30px;
+	}
+
+	&__img {
+		margin-top: 20px;
+	}
+
+	&__legend {
+		@include font-size(14px);
+	}
+
+	&__special-layout {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		flex-direction: column;
+
+		@include respond-to('medium') {
+			flex-direction: row;
+		}
+
+		&__img {
+			margin-right: 2px;
+			margin-bottom: 2px;
+			width: 335px;
+
+			&:nth-child(2n+1),
+			&:nth-last-child {
+				margin-right: 0;
+			}
+
+			&:nth-last-child(2),
+			&:nth-last-child {
+				margin-bottom: 2px;
+			}
+		}
+	}
+}
