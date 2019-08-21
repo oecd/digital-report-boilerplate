@@ -1,0 +1,6 @@
+# supported browsers (used by autoprefixer via browserslist)
+
+last 4 versions
+> 1%
+maintained node versions
+not dead
