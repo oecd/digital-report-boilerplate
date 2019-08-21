@@ -53,161 +53,16 @@
 	<!--/.Publication title and header #1 -->
 	${require('./modules/header-publication/header-publication.html')}
 
-	<!--/.Header inner page nav -->
-	${require('./modules/header-publication-inner-page-nav/header-publication-inner-page-nav.html')}
-</div>
+		<!-- Sticky header menu -->
 
-<!--/.Publication title and header #2 -->
-<div class="site-container">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-10 offset-md-1">
-				<br> <br>
-				${require('./modules/breadcrumb/breadcrumb.html')}
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12 col-md-10 offset-md-1">
-				${require('./modules/banner/banner.html')}
-			</div>
-		</div>
-	</div>
-
-	<!--/.Publication title and header #3 -->
-	${require('./modules/header-video/header-video.html')}
-
-	<a name="watch-interview"></a>
-
-	<!--/.Featured Stories #1-->
-	<div class="site-content">
-		${require('./modules/featured-stories/featured-stories.html')}
-	</div>
-
-	<!--/.Featured Stories #2-->
-	<div class="site-content">
-		${require('./modules/read-more/read-more.html')}
-	</div>
-
-	<a name="discover-report"></a>
-
+		<a name="read-key-messages"></a>
 	<!--/.Key Topics-->
-	<div class="site-content site-content--gray">
+		<div class="site-content site-content--gray" id="read-key-messages">
 		${require('./modules/key-topics/key-topics.html')}
 	</div>
 
-	<!--/.Key Messages-->
-	<div class="site-content site-content--secondary">
-		<div class="container">
-			${require('./modules/key-messages/key-messages.html')}
-		</div>
-	</div>
-
-	<!--/.Pull-quotes #1-->
-	<div class="site-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-10 offset-md-1">
-					${require('./modules/blockquote/blockquote.html')}
-					<div class="ssk-group social"
-							 data-title="About 14% of jobs in OECD countries are highly automatable and another 32% will be radically transformed by technological progress."
-							 data-text="Find out more ➡️"
-							 data-url="https://oe.cd/employment-outlook">
-						<div class="social__word">Share</div>
-						<a class="ssk ssk-facebook social__item social__item--facebook" href="">
-							<img src="images/facebook--emerald.svg" alt="Facebook">
-						</a>
-						<a class="ssk ssk-twitter social__item social__item--twitter" href="">
-							<img src="images/twitter--emerald.svg" alt="Twitter">
-						</a>
-						<a class="ssk ssk-linkedin social__item social__item--linkedin" href="">
-							<img src="images/linkedin--emerald.svg" alt="LinkedIn">
-						</a>
-					</div><!--/.social-->
-				</div><!--/.col-->
-			</div><!--/.row-->
-		</div><!--/.container-->
-	</div><!--/.site-content-->
-
-	<!--/.Pull-quotes #2-->
-	<div class="site-content site-content--colored" style="background: #0aa78e;">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-10 offset-md-1">
-					${require('./modules/blockquote/blockquote--white.html')}
-				</div><!--/.col-->
-			</div><!--/.row-->
-		</div><!--/.container-->
-	</div><!--/.site-content-->
-
-	<!--/.Pull-quotes #3-->
-	<div class="site-content site-content--panel">
-		${require('./modules/panel/panel.html')}
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 offset-md-1">
-					${require('./modules/blockquote/blockquote.html')}
-				</div>
-				<div class="col-md-3">
-					${require('./modules/highlight/highlight.html')}
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--/.Regular video #1 -->
-	<div class="site-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 offset-md-1">
-					${require('./modules/video/video.html')}
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--/.Regular video #2-->
-	<div class="site-content site-content--gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
-					<div class="title">Trade escalation and the
-						<span class="title--highlight">tension around</span>
-						protectionism have 3 impacts
-					</div>
-				</div><!--/.col-->
-			</div><!--/.row	-->
-			${require('./modules/video-regular/video-regular.html')}
-		</div><!--/.container-->
-	</div><!--/.site-content-->
-
-	<!--/.Key facts (slider) #2-->
-	<div class="site-content">
-		<div class="container">
-			${require('./modules/key-facts-slider/key-facts-slider.html')}
-		</div><!--/.container-->
-	</div><!--/.site-content-->
-
-
-	<!--/.Key facts (slider) #3-->
-	<div class="site-content site-content--secondary">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					${require('./modules/key-facts/key-facts.html')}
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--/.Images (separator) -->
-	<div class="site-content site-content--no-padding">
-		${require('./modules/image-separator/image-separator.html')}
-	</div>
-
-	<!--/.Key data-->
-	<div class="site-content">
-		<div class="container">
-			${require('./modules/key-data/key-data.html')}
+		<a name="discover-report"></a>
+		<!--/.Publication and Key Resources -->
 		</div>
 	</div>
 
@@ -221,7 +76,7 @@
 	<a name="compare-your-country"></a>
 
 	<!--/.Embedded data visualization #2 / Enhanced video-->
-	<div class="site-content">
+		<div class="site-content" id="compare-your-country">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-10 offset-md-1">
@@ -235,23 +90,14 @@
 		</div>
 	</div>
 
-	<!-- Text Block -->
-	<div class="site-content">
-		<div class="container">
-				<div class="row">
-							${require('./modules/text-block/text-block.html')}
-				</div>
-		</div>
+		<a name="watch-interview"></a>
+		<br/>
+		<div id="watch-interview">
+			<!--/.Publication title and header #3 -->
+			${require('./modules/header-video/header-video.html')}
 	</div>
 
-	<a name="read-key-messages"></a>
-
-	<!--/.Publication and Key Resources -->
-	<div class="site-content">
-		${require('./modules/publications/publications--economic.html')}
-	</div>
-
-
+	</div><!-- / end .site-container -->
 
 	${require('./modules/go-top-btn/go-top-btn.html')}
 	${require('./modules/footer/footer.html')}
