@@ -23,6 +23,7 @@ import './modules/pop-in/pop-in';
 import './modules/publications/publications';
 import './modules/read-more/read-more';
 import './modules/social-sticky/social-sticky';
+import './modules/sticky-header/sticky-header';
 import './modules/video/video';
 import './modules/go-top-btn/go-top-btn';
 import './modules/credits/credits';
@@ -33,3 +34,4 @@ import './modules/header-publication-inner-page-nav/header-publication-inner-pag
 import './modules/video-regular/video-regular';
 import './modules/header-video/header-video';
 import './modules/text-block/text-block';
+    
