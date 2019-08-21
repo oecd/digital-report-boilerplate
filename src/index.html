@@ -36,76 +36,72 @@
 	})(window, document, 'script', 'dataLayer', 'GTM-P5JSM4P');
 </script>
 <!-- End Google Tag Manager -->
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5JSM4P"
-					height="0"
-					width="0"
-					style="display:none; visibility:hidden">
-	</iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
+<body data-spy="scroll" data-target="#navbar">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5JSM4P"
+						height="0"
+						width="0"
+						style="display:none; visibility:hidden">
+		</iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
-<div class="site-container">
-	${require('./modules/header/header.html')}
+	<div class="site-container">
+		${require('./modules/header/header.html')}
 
-	<!--/.Publication title and header #1 -->
-	${require('./modules/header-publication/header-publication.html')}
+		<!--/.Publication title and header #1 -->
+		${require('./modules/header-publication/header-publication.html')}
 
 		<!-- Sticky header menu -->
+		${require('./modules/sticky-header/sticky-header.html')}
 
 		<a name="read-key-messages"></a>
-	<!--/.Key Topics-->
+		<br/>
+		<!--/.Key Topics-->
 		<div class="site-content site-content--gray" id="read-key-messages">
-		${require('./modules/key-topics/key-topics.html')}
-	</div>
-
+			${require('./modules/key-topics/key-topics.html')}
+		</div>
+	
 		<a name="discover-report"></a>
 		<!--/.Publication and Key Resources -->
+		<div class="site-content" id="discover-report">
+			${require('./modules/publications/publications--economic.html')}
 		</div>
-	</div>
-
-	<!--/.Embedded data visualization #1-->
-	<div class="site-content site-content--gray">
-		<div class="container">
-			${require('./modules/key-facts/key-facts.html')}
-		</div>
-	</div>
-
-	<a name="compare-your-country"></a>
-
-	<!--/.Embedded data visualization #2 / Enhanced video-->
+		
+	
+		<a name="compare-your-country"></a>
+		<br/>
+		<!--/.Embedded data visualization #2 / Enhanced video-->
 		<div class="site-content" id="compare-your-country">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-10 offset-md-1">
-					<div class="title">Compare <span class="title--highlight">your country</span></div>
-					<iframe width='100%'
-									height='600' frameBorder='0'
-									src='//www1.compareyourcountry.org/oecd-economic-outlook?embed=noHeader'>
-					</iframe>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 offset-md-1">
+						<div class="title">Compare <span class="title--highlight">your country</span></div>
+						<iframe width='100%'
+										height='600' frameBorder='0'
+										src='//www1.compareyourcountry.org/oecd-economic-outlook?embed=noHeader'>
+						</iframe>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 		<a name="watch-interview"></a>
 		<br/>
 		<div id="watch-interview">
 			<!--/.Publication title and header #3 -->
 			${require('./modules/header-video/header-video.html')}
-	</div>
+		</div>
 
 	</div><!-- / end .site-container -->
 
+	<!-- always required -->
 	${require('./modules/go-top-btn/go-top-btn.html')}
 	${require('./modules/footer/footer.html')}
 	${require('./modules/pop-in/pop-in.html')}
 	${require('./modules/social-sticky/social-sticky.html')}
 </div>
-
-<!--call custom scripts-->
 
 <!-- navigation object : Google Analytics -->
 <script type="text/javascript">
