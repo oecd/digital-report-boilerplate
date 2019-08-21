@@ -6,7 +6,23 @@
 
 import './go-top-btn.scss';
 
-$(document).on('click', '.go-top-btn', (e) => {
-	e.preventDefault();
-	$("html, body").animate({scrollTop: 0}, 1000);
-});
+try {
+	var bttb = document.getElementById('back-to-top-button');
+
+	// go back to top when clicked
+	bttb.addEventListener('click', (e) => {
+		e.preventDefault();
+		document.location.href = '#';
+	})
+	
+	// hide button if already on top, or almost
+	document.addEventListener('scroll', () => {
+		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+			bttb.style.display = 'flex';
+		} else {
+			bttb.style.display = 'none';
+		}
+	})	
+} catch(err) {
+	console.log(`Error while configuring back to top button: ${err}`)
+}
