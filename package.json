@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/.bin/webpack",
     "build:prod:en": "node_modules/.bin/webpack --env.ASSET_PATH=/employment/outlook/",
-    "build:staging": "node_modules/.bin/webpack --env.ASSET_PATH=/digitalreport/test-site/",
+    "build:staging": "node_modules/.bin/webpack",
     "watch": "node_modules/.bin/webpack --watch",
     "start:dev": "webpack-dev-server --open"
   },
