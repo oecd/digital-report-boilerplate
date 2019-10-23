@@ -96,6 +96,10 @@
 		background: color('secondary');
 		color: color('background');
 
+		&:hover {
+			color: color('background');
+		}
+
 		@include respond-to('medium') {
 			height: 160px;
 		}

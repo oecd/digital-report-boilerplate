@@ -6,6 +6,7 @@
 	margin: 0 0 30px 0;
 	padding: 0;
 	list-style: none;
+	background-color: transparent;
 
 	@include respond-to('medium') {
 		display: block;
