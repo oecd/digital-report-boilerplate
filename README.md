@@ -11,3 +11,8 @@ In our Redmine Wiki (search for Digital Reports), you'll find all necessary info
 1. Don't forget to rename the repository using only lowercase, hyphens and numbers
 2. Clone the repository to your local machine
 3. Follow the instructions in the Wiki regarding the installation of the `npm` modules etc.
+
+## Env variables
+
+Env variables can be set by creating a .env file (.env.sample can be used as reference. Mainly useful during dev phase).
+In any case, system variables will take precedence over ones set using .env file.
