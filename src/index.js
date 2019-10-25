@@ -4,6 +4,8 @@
  * @created 01/03/2019
  */
 
+import 'promise-polyfill/src/polyfill';
+
 import './modules/banner/banner';
 import './modules/blockquote/blockquote';
 import './modules/breadcrumb/breadcrumb';
