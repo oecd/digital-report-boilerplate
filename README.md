@@ -16,3 +16,21 @@ In our Redmine Wiki (search for Digital Reports), you'll find all necessary info
 
 Env variables can be set by creating a .env file (.env.sample can be used as reference. Mainly useful during dev phase).
 In any case, system variables will take precedence over ones set using .env file.
+
+## Localization
+
+Static text translations is handled by module (modules may or may not support localization).
+
+When changing an existing module it is **strongly encouraged** to refactor it so that it support localization because:
+
+1. The alternative (duplicating the module code for each supported languages) is time consuming and error prone
+2. It is extremely quick and easy to do (matter of minutes)!
+
+Here are the steps (the projections-by-country module can be taken as an example):
+
+- create a .json file in the module directory (see `src/modules/projections-by-country-resources/projections-by-country-resources.json`)
+- import the file in `src/localization.js`
+- add the file content to the `resourceList` array;
+- add a line after localization init: `$('#root-module-element-id').localize({ ns: 'namespace-used-in-localization-json-file' });`
+
+once done, in the module, whereever hardcoded static text would have been used, add `data-i18n="xxxx"` in the containing html element (where xxxx is a valid key in the localization .json file)

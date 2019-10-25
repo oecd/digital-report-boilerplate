@@ -1,6 +1,6 @@
 // _c-button.scss
 
-.btn {
+.btn-default {
 	@extend button;
 	display: inline-block;
 	padding: 18px 25px 15px 25px;
@@ -52,10 +52,10 @@
 /// Create themed btn version based on $colors variable map
 /// @variable {String} $color-name - Color's name
 /// @variable {List} $color-variant - Color's themed map
-/// @return {Mixed} .btn--color-name
+/// @return {Mixed} .btn-custom--color-name
 /// @require $colors
 @each $color-name, $color-variants in $colors {
-	.btn--#{$color-name} {
+	.btn-default--#{$color-name} {
 		color: color($color-name, 'invert');
 		background: color($color-name);
 

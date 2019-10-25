@@ -5,6 +5,10 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
+const appConfig = require('./src/config');
+
+const isNodeEnvProd = appConfig.nodeEnv === 'production';
+
 module.exports = {
 	node: {fs: 'empty'},
 	entry: {
@@ -19,10 +23,10 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'js/[name].js',
-		publicPath: process.env.ASSET_PATH ? process.env.ASSET_PATH : '/',
+		publicPath: appConfig.assetPath,
 	},
 	optimization: {
-		minimize: process.env.NODE_ENV === 'production',
+		minimize: isNodeEnvProd,
 		splitChunks: {
 			cacheGroups: {
 				commons: {

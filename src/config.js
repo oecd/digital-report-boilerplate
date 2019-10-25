@@ -3,6 +3,8 @@
 // + handle default values
 const appConfig = {
   lang: process.env.APP_LANG || 'en',
+  assetPath: process.env.ASSET_PATH || '/',
+  nodeEnv: process.env.NODE_ENV,
 };
 
-export default appConfig;
+module.exports = appConfig;

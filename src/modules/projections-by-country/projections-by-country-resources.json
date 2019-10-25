@@ -1,0 +1,29 @@
+{
+  "en": {
+    "projections-by-country": {
+      "title": "Projections by <span class='title--highlight'>country</span>",
+      "subtitle": "These interactive charts show the latest forecasts for Real GDP, inflation, domestic demand or unemployment rates by country.",
+      "selectCountryConstantTitle": "SELECT YOUR COUNTRY",
+      "read-button": "Read country projection",
+      "projection-button": "Country projection"
+    }
+  },
+  "fr": {
+    "projections-by-country": {
+      "title": "Projections by <span class='title--highlight'>country</span> [fr]",
+      "subtitle": "These interactive charts show the latest forecasts for Real GDP, inflation, domestic demand or unemployment rates by country. [fr]",
+      "selectCountryConstantTitle": "SELECT YOUR COUNTRY [fr]",
+      "read-button": "Read country projection [fr]",
+      "projection-button": "Country projection [fr]"
+    }
+  },
+  "es": {
+    "projections-by-country": {
+      "title": "Projections by <span class='title--highlight'>country</span> [es]",
+      "subtitle": "These interactive charts show the latest forecasts for Real GDP, inflation, domestic demand or unemployment rates by country. [es]",
+      "selectCountryConstantTitle": "SELECT YOUR COUNTRY [es]",
+      "read-button": "Read country projection [es]",
+      "projection-button": "Country projection [es]"
+    }
+  }
+}

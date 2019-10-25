@@ -9,6 +9,7 @@ import './modules/blockquote/blockquote';
 import './modules/breadcrumb/breadcrumb';
 import './modules/card/card';
 import './modules/compare/compare';
+import './modules/projections-by-country/projections-by-country';
 import './modules/footer/footer';
 import './modules/header/header';
 import './modules/highlight/highlight';
@@ -34,4 +35,4 @@ import './modules/header-publication-inner-page-nav/header-publication-inner-pag
 import './modules/video-regular/video-regular';
 import './modules/header-video/header-video';
 import './modules/text-block/text-block';
-    
+import './localization'
