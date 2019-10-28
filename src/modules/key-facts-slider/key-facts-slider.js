@@ -4,7 +4,7 @@
  * @created 29/04/2019
  */
 
-import Swiper from "swiper/dist/js/swiper.js";
+import Swiper from "swiper/js/swiper.js";
 import './key-facts-slider.scss';
 
 var keyFactsSlider = new Swiper('.key-facts-slider', {
