@@ -14,11 +14,12 @@
 	}
 
 	.header-top__nav__toggle.is-open &,
-	.main-nav__toggle.is-open & {
+	.main-nav__toggle.is-open &,
+	.internal-nav__toggle.is-open & {
 		background: none;
 	}
 
-	.main-nav__toggle & {
+	.main-nav__toggle &, .internal-nav__toggle & {
 		background: color('oecd', 'invert');
 	}
 
@@ -34,12 +35,13 @@
 		transition-timing-function: $transition-type;
 
 		.header-top__nav__toggle.is-open &,
-		.main-nav__toggle.is-open & {
+		.main-nav__toggle.is-open &,
+		.internal-nav__toggle.is-open & {
 			transition: top $transition-duration, bottom $transition-duration, transform $transition-duration $transition-duration;
 			transition-timing-function: $transition-type;
 		}
 
-		.main-nav__toggle & {
+		.main-nav__toggle &, .internal-nav__toggle & {
 			background: color('oecd', 'invert');
 		}
 	}
@@ -52,7 +54,8 @@
 		}
 
 		.header-top__nav__toggle.is-open &,
-		.main-nav__toggle.is-open & {
+		.main-nav__toggle.is-open &,
+		.internal-nav__toggle.is-open & {
 			top: 0;
 			transform: rotate(-45deg);
 		}
@@ -66,7 +69,8 @@
 		}
 
 		.header-top__nav__toggle.is-open &,
-		.main-nav__toggle.is-open & {
+		.main-nav__toggle.is-open &,
+		.internal-nav__toggle.is-open & {
 			bottom: 0;
 			transform: rotate(45deg);
 		}

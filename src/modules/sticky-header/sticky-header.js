@@ -1,19 +1,37 @@
 import './sticky-header.scss'
-import '../../../node_modules/bootstrap/dist/js/bootstrap'
+import 'bootstrap';
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+const navbar = $('#navbar');
+const links = navbar.find('.nav-link');
+const burgerButton = navbar.find('.internal-nav__toggle');
+let sticky = navbar.offset().top + 5;
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-document.addEventListener('scroll', () => {
+const reactToPageYOffsetChange = () => {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.addClass('sticky');
+    links.removeClass('force-visible');
+    burgerButton.addClass('internal-nav__toggle__force-visible');
   } else {
-    navbar.classList.remove("sticky");
+    navbar.removeClass('sticky');
+    links.addClass('force-visible');
+    burgerButton.removeClass('internal-nav__toggle__force-visible');
   }
-})
+  burgerButton.removeClass('is-open');
+}
 
-$('body').scrollspy({ target: '#navbar' })
+document.addEventListener('scroll', () => {
+  reactToPageYOffsetChange();
+});
+
+window.addEventListener('resize', () => {
+  sticky = navbar.offset().top + 5;
+});
+
+burgerButton.on('click', () => {
+  burgerButton.toggleClass('is-open');
+  links.toggleClass('force-visible');
+});
+
+reactToPageYOffsetChange();
+
+$('body').scrollspy({ target: '#navbar' });

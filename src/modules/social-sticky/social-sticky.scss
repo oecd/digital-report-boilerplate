@@ -16,12 +16,12 @@
 		@include respond-to('medium') {
 			right: 0;
 			top: 50%;
-			transform: translateY(-50%) translateX(100%);
+			transform: translateY(-40%) translateX(100%);
 			@include transition();
 		}
 
 		&.open {
-			transform: translateY(-50%) translateX(0);
+			transform: translateY(-40%) translateX(0);
 		}
 	}
 

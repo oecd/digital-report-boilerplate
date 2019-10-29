@@ -9,15 +9,46 @@
     font-family: Oswald, sans-serif;
     width: 100%;
 }
+
+.internal-nav__nav {
+    width: 100%;
+}
+
+.internal-nav__toggle {
+    float: right;
+    width: 45px;
+    height: 52px;
+    background: none;
+    border: none;
+    display: none;
+
+    &__force-visible {
+        display: block;
+        @include respond-to('medium') {
+            display: none;
+        }
+    }
+}
+
   
 /* Navbar links */
 #navbar a {
     float: left;
-    display: block;
+    display: none;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 14px;
     text-decoration: none;
+    width: calc(100% - 50px);
+
+    @include respond-to('medium') {
+        display: block;
+        width: auto;
+    }
+}
+
+#navbar a.active, #navbar a.force-visible {
+    display: block;
 }
 
 #navbar a:hover {
