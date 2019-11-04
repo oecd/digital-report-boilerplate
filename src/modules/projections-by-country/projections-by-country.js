@@ -14,6 +14,10 @@ const countrySelected = (country) => {
   $('#projections-by-country-projection-button').attr('href', country[appConfig.lang].oecdOrgUrl);
 }
 
+const createSelectWithDataSizeBasedOnWindowWidth = () => {
+  $('#projections-by-country-select').selectpicker({ size: window.innerWidth < 992 ? 5 : 13 });
+};
+
 const selectCountryConstantTitle = getResourceByNsAndKey('projections-by-country', 'selectCountryConstantTitle');
 
 _.forEach(
@@ -24,13 +28,17 @@ _.forEach(
   },
 );
 
+window.addEventListener('resize', () => {
+  createSelectWithDataSizeBasedOnWindowWidth();
+});
+createSelectWithDataSizeBasedOnWindowWidth();
+
+const defaultCountry = _.find(data, { isDefault: true }) || _.head(data);
+countrySelected(defaultCountry);
+$('#projections-by-country-select').selectpicker('val', defaultCountry.id);
+
 $('#projections-by-country-select').on('change', (e) => {
   const selectedCountry = _.find(data, { id: e.currentTarget.value });
   countrySelected(selectedCountry);
 });
 
-const defaultCountry = _.find(data, { isDefault: true }) || _.head(data);
-countrySelected(defaultCountry);
-
-$('#projections-by-country-select').selectpicker();
-$('#projections-by-country-select').selectpicker('val', defaultCountry.id);

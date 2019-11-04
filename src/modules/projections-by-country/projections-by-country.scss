@@ -4,6 +4,10 @@
   &__select-block {
     background: color('background');
     padding: 15px;
+
+    .dropdown-menu {
+      z-index: 9;
+    }
   }
   
   &__select {
