@@ -29,8 +29,9 @@ When changing an existing module it is **strongly encouraged** to refactor it so
 Here are the steps (the projections-by-country module can be taken as an example):
 
 - create a .json file in the module directory (see `src/modules/projections-by-country-resources/projections-by-country-resources.json`)
-- import the file in `src/localization.js`
-- add the file content to the `resourceList` array;
-- add a line after localization init: `$('#root-module-element-id').localize({ ns: 'namespace-used-in-localization-json-file' });`
+- in `src/localization.js`
+  - import the json file
+  - add the file content to the `resourceList` array;
+  - add a line after localization init: `$('#root-module-element-id').localize({ ns: 'namespace-used-in-localization-json-file' });`
 
 once done, in the module, whereever hardcoded static text would have been used, add `data-i18n="xxxx"` in the containing html element (where xxxx is a valid key in the localization .json file)

@@ -1,0 +1,53 @@
+{
+  "en": {
+    "header-publication": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019",
+      "title": "OECD Economics Outlook November 2018",
+      "main-title": "Global growth is weakening, risks are rising",
+      "hashtag-title": "#OECDeconomicOutlook",
+      "social-title": "About 14% of jobs in OECD countries are highly automatable and another 32% will be radically transformed by technological progress.",
+      "social-text": "Find out more ➡️",
+      "social-verb": "Share",
+      "button-explore": "Explore the november 2018 issue"
+    }
+  },
+  "fr": {
+    "header-publication": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org [fr]",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment [fr]",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019 [fr]",
+      "title": "OECD Economics Outlook November 2018 [fr]",
+      "main-title": "Global growth is weakening, risks are rising [fr]",
+      "hashtag-title": "#OECDeconomicOutlook [fr]",
+      "social-title": "About 14% of jobs in OECD countries are highly automatable and another 32% will be radically transformed by technological progress. [fr]",
+      "social-text": "Find out more ➡️ [fr]",
+      "social-verb": "Share [fr]",
+      "button-explore": "Explore the november 2018 issue [fr]"
+    }
+  },
+  "es": {
+    "header-publication": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org [es]",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment [es]",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019 [es]",
+      "title": "OECD Economics Outlook November 2018 [es]",
+      "main-title": "Global growth is weakening, risks are rising [es]",
+      "hashtag-title": "#OECDeconomicOutlook [es]",
+      "social-title": "About 14% of jobs in OECD countries are highly automatable and another 32% will be radically transformed by technological progress. [es]",
+      "social-text": "Find out more ➡️ [es]",
+      "social-verb": "Share [es]",
+      "button-explore": "Explore the november 2018 issue [es]"
+    }
+  }
+}

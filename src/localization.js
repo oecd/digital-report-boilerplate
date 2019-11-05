@@ -4,8 +4,12 @@ import _ from 'lodash';
 
 import appConfig from './config';
 import projectionsByCountryResources from './modules/projections-by-country/projections-by-country-resources.json';
+import headerPublicationResources from './modules/header-publication/header-publication-resources.json';
 
-const resourceList = [projectionsByCountryResources];
+const resourceList = [
+  projectionsByCountryResources,
+  headerPublicationResources,
+];
 
 i18next.init({
   lng: appConfig.lang,
@@ -24,6 +28,7 @@ i18next.init({
   });
   
   $('#projections-by-country').localize({ ns: 'projections-by-country' });
+  $('#header-publication').localize({ ns: 'header-publication' });
 });
 
 export const getResourceByNsAndKey = (ns, key) => i18next.getResource(appConfig.lang, ns, key);

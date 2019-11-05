@@ -18,7 +18,7 @@ const createSelectWithDataSizeBasedOnWindowWidth = () => {
   $('#projections-by-country-select').selectpicker({ size: window.innerWidth < 992 ? 5 : 13 });
 };
 
-const selectCountryConstantTitle = getResourceByNsAndKey('projections-by-country', 'selectCountryConstantTitle');
+const selectCountryConstantTitle = getResourceByNsAndKey('projections-by-country', 'select-country-constant-title');
 
 _.forEach(
   _.sortBy(data, [(c) => c[appConfig.lang].label]),
