@@ -4,6 +4,7 @@ const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const appConfig = require('./src/config');
 
@@ -125,6 +126,12 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
 			template: 'src/index.html',
-		})
+		}),
+		new CopyPlugin([
+      {
+        from: path.join(__dirname, 'src/images'),
+        to: path.resolve(__dirname, 'dist/img'),
+      },
+    ]),
 	],
 };
