@@ -1,0 +1,35 @@
+{
+  "en": {
+    "text-block": {
+      "title": "Text block title",
+      "title-secondary-1": "Text block tite -- title secondary",
+      "text-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod?",
+      "title-secondary-2": "Text block tite -- title secondary, with additional margin top",
+      "text-2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod?",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "Read the full report"
+    }
+  },
+  "fr": {
+    "text-block": {
+      "title": "Text block title [fr]",
+      "title-secondary-1": "Text block tite -- title secondary [fr]",
+      "text-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod? [fr]",
+      "title-secondary-2": "Text block tite -- title secondary, with additional margin top [fr]",
+      "text-2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod? [fr]",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "Read the full report [fr]"
+    }
+  },
+  "es": {
+    "text-block": {
+      "title": "Text block title [es]",
+      "title-secondary-1": "Text block tite -- title secondary [es]",
+      "text-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod? [es]",
+      "title-secondary-2": "Text block tite -- title secondary, with additional margin top [es]",
+      "text-2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloribus incidunt iste maxime modi, omnis sit voluptatem. Eum id magnam, molestiae placeat reprehenderit saepe similique voluptate. Eum illum libero quod? [es]",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "Read the full report [es]"
+    }
+  }
+}
