@@ -1,0 +1,74 @@
+{
+  "en": {
+    "key-topics": {
+      "title": "Key <span class='title--highlight'>topics</span>",
+      "tile-1-href": "http://www.oecd.org/employment/future-of-work/",
+      "tile-1-title": "Future of Work",
+      "tile-2-href": "https://oecd-futureofjobs.org/",
+      "tile-2-title": "Automation",
+      "tile-3-href": "http://www.oecd.org/employment/skills-and-work/",
+      "tile-3-title": "Skills",
+      "tile-4-href": "http://www.oecd.org/employment/collective-bargaining.htm",
+      "tile-4-title": "Social dialogue",
+      "tile-5-href": "https://www.oecd-ilibrary.org/sites/9789264306943-en/index.html?itemId=/content/publication/9789264306943-en",
+      "tile-5-title": "Future of Social Protection report",
+      "tile-6-href": "http://www.oecd.org/els/emp/displaced-workers.htm",
+      "tile-6-title": "Displaced workers",
+      "tile-7-href": "http://www.oecd.org/employment/",
+      "tile-7-title": "Employment",
+      "tile-8-href": "http://www.oecd.org/gender/",
+      "tile-8-title": "Gender equality",
+      "tile-9-href": "http://www.oecd.org/going-digital/",
+      "tile-9-title": "Digitalisation",
+      "tiles-learn-more": "Learn More"
+    }
+  },
+  "fr": {
+    "key-topics": {
+      "title": "Key <span class='title--highlight'>topics</span> [fr]",
+      "tile-1-href": "http://www.oecd.org/employment/future-of-work/",
+      "tile-1-title": "Future of Work [fr]",
+      "tile-2-href": "https://oecd-futureofjobs.org/",
+      "tile-2-title": "Automation [fr]",
+      "tile-3-href": "http://www.oecd.org/employment/skills-and-work/",
+      "tile-3-title": "Skills [fr]",
+      "tile-4-href": "http://www.oecd.org/employment/collective-bargaining.htm",
+      "tile-4-title": "Social dialogue [fr]",
+      "tile-5-href": "https://www.oecd-ilibrary.org/sites/9789264306943-en/index.html?itemId=/content/publication/9789264306943-en",
+      "tile-5-title": "Future of Social Protection report [fr]",
+      "tile-6-href": "http://www.oecd.org/els/emp/displaced-workers.htm",
+      "tile-6-title": "Displaced workers [fr]",
+      "tile-7-href": "http://www.oecd.org/employment/",
+      "tile-7-title": "Employment [fr]",
+      "tile-8-href": "http://www.oecd.org/gender/",
+      "tile-8-title": "Gender equality [fr]",
+      "tile-9-href": "http://www.oecd.org/going-digital/",
+      "tile-9-title": "Digitalisation [fr]",
+      "tiles-learn-more": "Learn More [fr]"
+    }
+  },
+  "es": {
+    "key-topics": {
+      "title": "Key <span class='title--highlight'>topics</span> [es]",
+      "tile-1-href": "http://www.oecd.org/employment/future-of-work/",
+      "tile-1-title": "Future of Work [es]",
+      "tile-2-href": "https://oecd-futureofjobs.org/",
+      "tile-2-title": "Automation [es]",
+      "tile-3-href": "http://www.oecd.org/employment/skills-and-work/",
+      "tile-3-title": "Skills [es]",
+      "tile-4-href": "http://www.oecd.org/employment/collective-bargaining.htm",
+      "tile-4-title": "Social dialogue [es]",
+      "tile-5-href": "https://www.oecd-ilibrary.org/sites/9789264306943-en/index.html?itemId=/content/publication/9789264306943-en",
+      "tile-5-title": "Future of Social Protection report [es]",
+      "tile-6-href": "http://www.oecd.org/els/emp/displaced-workers.htm",
+      "tile-6-title": "Displaced workers [es]",
+      "tile-7-href": "http://www.oecd.org/employment/",
+      "tile-7-title": "Employment [es]",
+      "tile-8-href": "http://www.oecd.org/gender/",
+      "tile-8-title": "Gender equality [es]",
+      "tile-9-href": "http://www.oecd.org/going-digital/",
+      "tile-9-title": "Digitalisation [es]",
+      "tiles-learn-more": "Learn More [es]"
+    }
+  }
+}
