@@ -8,6 +8,7 @@ import headerPublicationResources from './modules/header-publication/header-publ
 import stickyHeaderResources from './modules/sticky-header/sticky-header-resources.json';
 import keyMessagesResources from './modules/key-messages/key-messages-resources.json';
 import textBlockResources from './modules/text-block/text-block-resources.json';
+import compareYourCountryResources from './modules/compare-your-country/compare-your-country-resources.json';
 
 const resourceList = [
   projectionsByCountryResources,
@@ -15,6 +16,7 @@ const resourceList = [
   stickyHeaderResources,
   keyMessagesResources,
   textBlockResources,
+  compareYourCountryResources,
 ];
 
 i18next.init({
@@ -38,6 +40,7 @@ i18next.init({
   $('#navbar').localize({ ns: 'sticky-header' });
   $('#key-messages').localize({ ns: 'key-messages' });
   $('#text-block').localize({ ns: 'text-block' });
+  $('#compare-your-country').localize({ ns: 'compare-your-country' });
 });
 
 export const getResourceByNsAndKey = (ns, key) => i18next.getResource(appConfig.lang, ns, key);

@@ -1,0 +1,20 @@
+{
+  "en": {
+    "compare-your-country": {
+      "title": "Compare <span class='title--highlight'>your country</span>",
+      "iframe-src": "//www1.compareyourcountry.org/oecd-economic-outlook?embed=noHeader"
+    }
+  },
+  "fr": {
+    "compare-your-country": {
+      "title": "Compare <span class='title--highlight'>your country</span> [fr]",
+      "iframe-src": "//www1.compareyourcountry.org/oecd-economic-outlook?embed=noHeader"
+    }
+  },
+  "es": {
+    "compare-your-country": {
+      "title": "Compare <span class='title--highlight'>your country</span> [es]",
+      "iframe-src": "//www1.compareyourcountry.org/oecd-economic-outlook?embed=noHeader"
+    }
+  }
+}
