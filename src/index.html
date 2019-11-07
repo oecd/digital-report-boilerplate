@@ -48,7 +48,7 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<div class="site-container">
-		${require('./modules/header/header.html')}
+		${require(`./modules/header/header-${process.env.APP_LANG || 'en'}.html`)}
 
 		<!--/.Publication title and header #1 -->
 		${require('./modules/header-publication/header-publication.html')}
