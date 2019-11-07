@@ -1,0 +1,41 @@
+@import "../../styles/helpers";
+
+.projections-by-country {
+  &__select-block {
+    background: color('background');
+    padding: 15px;
+
+    .dropdown-menu {
+      z-index: 9;
+    }
+  }
+  
+  &__select {
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    background: color('background', 'highlight');
+    &:hover {
+      border: 1px solid black;
+    }
+  }
+
+  &__country-title {
+    margin: 10px 0px;
+  }
+
+  &__graph-block {
+    background: color('background');
+    padding: 15px;
+  }
+  
+  &__btn {
+    margin-top: 15px;
+  }
+
+  &__btn2 {
+    margin-top: 15px;
+    margin-left: 15px
+  }
+}

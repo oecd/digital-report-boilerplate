@@ -1,0 +1,50 @@
+{
+  "en": {
+    "footer": {
+      "site-map-href": "https://www.oecd.org/sitemap/",
+      "site-map-text": "Site Map",
+      "contact-us-href": "https://www.oecd.org/contact/",
+      "contact-us-text": "Contact Us",
+      "copyright-1": "© 2019 Organisation for Economic",
+      "copyright-2": "Co-operation and Development",
+      "terms-href": "https://www.oecd.org/termsandconditions/",
+      "terms-text": "Terms and Conditions",
+      "privacy-href": "https://www.oecd.org/privacy/",
+      "privacy-text": "Privacy Policy",
+      "follow-us-href": "#",
+      "follow-us-text": "Follow us (Social Media):"
+    }
+  },
+  "fr": {
+    "footer": {
+      "site-map-href": "https://www.oecd.org/sitemap/",
+      "site-map-text": "Site Map [fr]",
+      "contact-us-href": "https://www.oecd.org/contact/",
+      "contact-us-text": "Contact Us [fr]",
+      "copyright-1": "© 2019 Organisation for Economic [fr]",
+      "copyright-2": "Co-operation and Development [fr]",
+      "terms-href": "https://www.oecd.org/termsandconditions/",
+      "terms-text": "Terms and Conditions [fr]",
+      "privacy-href": "https://www.oecd.org/privacy/",
+      "privacy-text": "Privacy Policy [fr]",
+      "follow-us-href": "#",
+      "follow-us-text": "Follow us (Social Media): [fr]"
+    }
+  },
+  "es": {
+    "footer": {
+      "site-map-href": "https://www.oecd.org/sitemap/",
+      "site-map-text": "Site Map [es]",
+      "contact-us-href": "https://www.oecd.org/contact/",
+      "contact-us-text": "Contact Us [es]",
+      "copyright-1": "© 2019 Organisation for Economic [es]",
+      "copyright-2": "Co-operation and Development [es]",
+      "terms-href": "https://www.oecd.org/termsandconditions/",
+      "terms-text": "Terms and Conditions [es]",
+      "privacy-href": "https://www.oecd.org/privacy/",
+      "privacy-text": "Privacy Policy [es]",
+      "follow-us-href": "#",
+      "follow-us-text": "Follow us (Social Media): [es]"
+    }
+  }
+}

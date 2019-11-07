@@ -2,10 +2,9 @@
 node_modules
 *.log
 /dist
-package-lock.json
 .settings
 node
 target
 .classpath
 .project
-.vscode
+.env
