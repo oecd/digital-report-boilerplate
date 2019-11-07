@@ -5,8 +5,13 @@
  */
 
 import './main-nav.scss';
+import appConfig from '../../../config';
 
-// main navigation toggle action
+$('.url-en').attr('href', appConfig.urls.en)
+$('.url-fr').attr('href', appConfig.urls.fr)
+$('.url-es').attr('href', appConfig.urls.es)
+
+	// main navigation toggle action
 $(document).on('click', '.main-nav__toggle', (e) => {
 	$(e.currentTarget).toggleClass('is-open');
 	$('.main-nav').toggleClass('is-open');
