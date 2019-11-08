@@ -4,6 +4,11 @@
 const appConfig = {
   lang: process.env.APP_LANG || 'en',
   assetPath: process.env.ASSET_PATH || '/',
+  urls: {
+    en: process.env.URL_en,
+    fr: process.env.URL_fr,
+    es: process.env.URL_es
+  },
   nodeEnv: process.env.NODE_ENV,
 };
 
