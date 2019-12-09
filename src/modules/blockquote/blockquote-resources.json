@@ -1,0 +1,29 @@
+{
+  "en": {
+    "text-blockquote": {
+      "title": "Blockquote <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "November 2018",
+      "cite-para": "my citation here",
+      "cite-src": "https://www.oecd-ilibrary.org/"
+    }
+  },
+  "fr": {
+    "text-blockquote": {
+      "title": "FR title <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "FR date000",
+      "cite-para": "FR citation",
+      "cite-src": "FR source "
+    }
+  },
+  "es": {
+    "text-blockquote": {
+      "title": "ES  <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "ES date 2018",
+      "cite-para": "ES  citation",
+      "cite-src": "ES source https://www.oecd-ilibrary.org/"
+    }
+  }
+}
