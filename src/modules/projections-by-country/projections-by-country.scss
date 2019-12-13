@@ -21,6 +21,34 @@
     }
   }
 
+  &__custom-opened-select {
+    margin-top: 5px;
+    display: none;
+  }
+
+  &__custom-opened-select .dropdown-item {
+    padding: 0.25rem 0.75rem;
+  }
+
+  &__custom-opened-select-list {
+    list-style: none;
+    min-width: 100%;
+    padding: 0px;
+  }
+
+  &__custom-opened-select-list li a {
+    cursor: pointer;
+  }
+
+  @media (min-width: 992px) {
+    &__custom-opened-select {
+      display: block;
+    }
+    &__select-block .bootstrap-select {
+      display: none;
+    }
+  }
+
   &__country-title {
     margin: 10px 0px;
   }
