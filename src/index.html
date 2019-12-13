@@ -50,20 +50,68 @@
 	<div class="site-container">
 		${require(`./modules/header/header-${process.env.APP_LANG || 'en'}.html`)}
 
-		<!--/.Publication title and header #1 -->
+			<!-- Modules:
+			Card = empty,
+			Compare = contain big image centred 100% width
+			highlight = part of ..
+			panel = part of...
+			pop-in part of...
+		-->
+
+		<!-- Publication title and header #1 -->
 		${require('./modules/header-publication/header-publication.html')}
 
 		<!-- Sticky header menu -->
 		${require('./modules/sticky-header/sticky-header.html')}
 
-		<a name="read-key-messages"></a>
+		<!-- Different blockquote tyme -->
+		<a name="quote1"></a>
 		<br/>
-		<!--/.Key Topics-->
+		<div class="site-content site-content--gray" id="quote1">
+				${require('./modules/blockquote/blockquote.html')}
+		</div>
+		<div class="site-content"> 
+				${require('./modules/blockquote/blockquote--no-title.html')}
+		</div>
+		<div class="site-content site-content--secondary"  style="background: #0aa78e;">  
+				${require('./modules/blockquote/blockquote--white.html')}
+		</div>
+		<!--/.blockquote-->
+
+		<!-- div text (gray bckgnd) overlapping image on right -->
+		<div class="site-content" id=""> 
+				${require('./modules/featured-stories/featured-stories.html')}
+		</div>
+
+		<!-- div text (no bckgnd) and image side by side -->
+		<div class="site-content"> 
+			${require('./modules/read-more/read-more.html')}
+		</div>
+
+		<!-- @2DO -->
+		<!-- Same siplay as blockquote but the entire module is sliding -->
+		<div class="site-content">   
+			${require('./modules/key-facts-slider/key-facts-slider.html')}
+		</div>
+
+		<!-- Key-facts - rectangular panel caroussel-->
+		<div class="site-content site-content--secondary">
+							${require('./modules/key-facts/key-facts.html')}
+			</div>
+
+		<!-- Ribbon image-->
+		<div class="site-content site-content--no-padding">
+					${require('./modules/image-separator/image-separator.html')}
+		</div>
+							
+		<a name="read-key-messages"></a>
+		<!--/.Key Topics square caroussel with dark background-->
 		<div class="site-content site-content--gray" id="read-key-messages">
 			${require('./modules/key-topics/key-topics.html')}
 		</div>
 
 		<a name="key-messages"></a>
+		<!--Key-message: 3 flipping panel-->
 		<div class="site-content site-content--secondary" id="key-messages">
 			${require('./modules/key-messages/key-messages.html')}
 		</div>
@@ -73,7 +121,8 @@
 		<div class="site-content" id="discover-report">
 			${require('./modules/publications/publications--economic.html')}
 		</div>
-
+		
+		<!-- @2DO to update with EO November-->
 		<a name="projections-by-country"></a>
 		<br/>
 		<div class="site-content" id="projections-by-country">
@@ -82,10 +131,12 @@
 
 		<a name="compare-your-country"></a>
 		<br/>
+		<!-- just a block with a country map embeded -->
 		<div class="site-content" id="compare-your-country">
 			${require('./modules/compare-your-country/compare-your-country.html')}
 		</div>
 
+		<!-- Text block -->
 		<div class="site-content site-content--gray" id="text-block">
 			${require('./modules/text-block/text-block.html')}
 		</div>	
@@ -93,10 +144,37 @@
 		<a name="watch-interview"></a>
 		<br/>
 		<div id="watch-interview">
-			<!--/.Publication title and header #3 -->
+			<!--/. Optional header with background image and video overlapping on right - Publication title and header #3 -->
 			${require('./modules/header-video/header-video.html')}
 		</div>
 
+		<a name="video"></a>
+		<!-- Embeded video, 2 options: a) iframe embedded b) pop-up to view the video -->
+		<div class="site-content  site-content--gray" id="video">
+			${require('./modules/video/video.html')}
+		</div>	
+
+		<!-- Podcast -->
+		<div class="site-content">
+			${require('./modules/podcast/podcast.html')}
+		</div>
+
+				
+		<!-- SPECIAL MODEL @2 review. Recomend not to use, UX issues 
+				<div class="site-content site-content--panel">
+					\${require('./modules/panel/panel.html')}
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 offset-md-1">
+								\${require('./modules/blockquote/blockquote.html')}
+							</div>
+							<div class="col-md-3">
+								\${require('./modules/highlight/highlight.html')}
+							</div>
+						</div>
+					</div>
+				</div> -->
+		
 	</div><!-- / end .site-container -->
 
 	<!-- always required -->
