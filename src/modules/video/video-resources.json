@@ -1,0 +1,34 @@
+{
+  "en": {
+    "video-block": {
+      "title": "My video <span class='title--highlight'>Embeded</span>",
+      "title-secondary-1": "Secondary title",
+      "text-1": "FRtxt1",
+      "text-2": "FRtxt2",
+      "video-src": "https://www.youtube.com/embed/djFMt-TpP9s?cc_load_policy=1&cc_lang_pref=en",
+      "play-label": "Play the video"
+    }
+  },
+  "fr": {
+    "video-block": {
+      "title": "ma vidéo <span class='title--highlight'>Responsive</span>",
+      "title-secondary-1": "ENsecondary",
+      "text-1": "ENtxt1",
+      "text-2": "ENtxt1",
+      "video-src": "https://www.youtube.com/embed/djFMt-TpP9s?cc_load_policy=1&cc_lang_pref=fr",
+      "play-label": "Lire la vidéo"
+
+    }
+  },
+  "es": {
+    "video-block": {
+      "title": "ES <span class='title--highlight'>ES</span>",
+      "title-secondary-1": "ESsecondary",
+      "text-1": "EStxt1",
+      "text-2": "EStxt1",
+      "video-src": "https://www.youtube.com/embed/djFMt-TpP9s?cc_load_policy=1&cc_lang_pref=es",
+      "play-label": "Reproducir el vídeo"
+
+    }
+  }
+}

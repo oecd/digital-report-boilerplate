@@ -43,20 +43,16 @@ module.exports = {
 			{
 				test: /\.(js|jsx)$/,
 				use: ['babel-loader'],
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 			},
 			{
 				test: /\.scss/,
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 				use: ExtractTextPlugin.extract({
 					fallback: 'style-loader',
 					use: [
 						{
 							loader: 'css-loader',
-							options: {
-								//modules: true,
-								//localIdentName: '[name]___[local]',
-							},
 						},
 						{
 							loader: 'postcss-loader',
@@ -65,7 +61,6 @@ module.exports = {
 							loader: 'sass-loader',
 							options: {
 								implementation: require("sass"),
-								//fiber: Fiber
 							}
 						},
 					],
@@ -73,7 +68,7 @@ module.exports = {
 			},
 			{
 				test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 				use: [
 					{
 						loader: 'file-loader',
@@ -85,7 +80,7 @@ module.exports = {
 			},
 			{
 				test: /\.(ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 				use: [
 					{
 						loader: 'file-loader',
@@ -97,7 +92,7 @@ module.exports = {
 			},
 			{
 				test: /\.(svg|jpg|png|gif|pdf|ico)$/,
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 				use: [
 					{
 						loader: 'file-loader',
@@ -109,7 +104,7 @@ module.exports = {
 			},
 			{
 				test: /\.html$/,
-				exclude: /(node_modules|bower_components)/,
+				exclude: /node_modules/,
 				use: ['html-loader?interpolate']
 			},
 		],
@@ -131,7 +126,19 @@ module.exports = {
       {
         from: path.join(__dirname, 'src/images'),
         to: path.resolve(__dirname, 'dist/img'),
-      },
+			},
+			// if there is only one web.config file, copy it
+			{
+				from: path.join(__dirname, 'src/web.config'),
+				to: path.join(__dirname, 'dist/web.config'),
+				toType: 'file'
+			},
+			// in case there are language-specific web.config files
+			{
+				from: path.join(__dirname, `src/web.config-${appConfig.lang}`),
+				to: path.join(__dirname, 'dist/web.config'),
+				toType: 'file'
+			}
     ]),
 	],
 };

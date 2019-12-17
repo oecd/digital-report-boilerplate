@@ -10,6 +10,11 @@ import keyMessagesResources from './modules/key-messages/key-messages-resources.
 import textBlockResources from './modules/text-block/text-block-resources.json';
 import compareYourCountryResources from './modules/compare-your-country/compare-your-country-resources.json';
 import keyTopicsResources from './modules/key-topics/key-topics-resources.json';
+import blockquoteResources from './modules/blockquote/blockquote-resources.json';
+import readMore from "./modules/read-more/read-more.json";
+import videoRessources from './modules/video/video-resources.json';
+import featuredStoriesRessources from './modules/featured-stories/featured-stories.json';
+import keyFactsResources from './modules/key-facts/key-facts-resources.json';
 import publicationsEconomicResources from './modules/publications/publications--economic-resources.json';
 import footerResources from './modules/footer/footer-resources.json';
 
@@ -21,6 +26,11 @@ const resourceList = [
   textBlockResources,
   compareYourCountryResources,
   keyTopicsResources,
+  blockquoteResources,
+  readMore,
+  videoRessources,
+  featuredStoriesRessources,
+  keyFactsResources,
   publicationsEconomicResources,
   footerResources,
 ];
@@ -48,6 +58,13 @@ i18next.init({
   $('#text-block').localize({ ns: 'text-block' });
   $('#compare-your-country').localize({ ns: 'compare-your-country' });
   $('#read-key-messages').localize({ ns: 'key-topics' });
+  $('#blockquote').localize({ ns: 'text-blockquote' });
+  $('#blockquote--no-title').localize({ ns: 'text-blockquote' });
+  $('#blockquote--white').localize({ ns: 'text-blockquote' });
+  $("#read--more").localize({ ns: 'text-block' });
+  $('#key-facts-panels').localize({ ns: 'key-facts-block' });
+  $('#video-block').localize({ ns: 'video-block' });
+  $('#featured-stories-txt').localize({ ns: 'text-block' });
   $('#discover-report').localize({ ns: 'publications--economic' });
   $('#footer').localize({ ns: 'footer' });
 });
