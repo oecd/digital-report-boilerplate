@@ -1,0 +1,23 @@
+{
+  "en": {
+    "text-block": {
+      "title-blk": "<b>My title here or short sentence,</b> e.g.<br>  The OECD Economic Outlook is the OECD's twice-yearly analysis of the major economic trends and prospects for the next two years.",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "Read more"
+    }
+  },
+  "fr": {
+    "text-block": {
+      "title-blk": "FR Mon titre/texte ici",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "FR label"
+    }
+  },
+  "es": {
+    "text-block": {
+      "title-blk": "ES <b>My title here or short sentence,</b>",
+      "link-href": "https://www.oecd-ilibrary.org/",
+      "link-text": "ES Read more"
+    }
+  }
+}

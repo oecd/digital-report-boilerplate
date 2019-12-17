@@ -1,0 +1,53 @@
+{
+  "en": {
+    "text-blockquote": {
+      "title": "Blockquote <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "November 2018",
+      "cite-para": "my citation here",
+      "cite-src": "https://www.oecd-ilibrary.org/",
+      "no-title--cite-link": "https://ocde.org",
+      "no-title--cite-date": "December 2018",
+      "no-title--cite-para": "I have no title",
+      "no-title--cite-src": "https://www.oecd-ilibrary.org/",
+      "white--cite-link": "https://ocde.org/economy",
+      "white--cite-date": "july 2018",
+      "white--cite-para": "I'm white",
+      "white--cite-src": "#OECDEconomicOutlook, https://www.oecd.org/"
+    }
+  },
+  "fr": {
+    "text-blockquote": {
+      "title": "FR title <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "FR date000",
+      "cite-para": "FR citation",
+      "cite-src": "FR source",
+      "no-title--cite-link": "https://ocde.org",
+      "no-title--cite-date": "FR December 2018",
+      "no-title--cite-para": "J'ai pas de titre",
+      "no-title--cite-src": "https://www.oecd-ilibrary.org/",
+      "white--cite-link": "https://ocde.org/economie",
+      "white--cite-date": "Juillet 2018",
+      "white--cite-para": "Mon txt est blanc",
+      "white--cite-src": "FR #OECDEconomicOutlook, https://www.oecd.org/"
+    }
+  },
+  "es": {
+    "text-blockquote": {
+      "title": "ES  <span class='title--highlight'>title</span>",
+      "cite-link": "https://ocde.org",
+      "cite-date": "ES date 2018",
+      "cite-para": "ES  citation",
+      "cite-src": "ES source https://www.oecd-ilibrary.org/",
+      "no-title--cite-link": "EShttps://ocde.org",
+      "no-title--cite-date": "ES December 2018",
+      "no-title--cite-para": "ES I have no title",
+      "no-title--cite-src": "ES https://www.oecd-ilibrary.org/",
+      "white--cite-link": "ES https://ocde.org/economy",
+      "white--cite-date": "ES july 2018",
+      "white--cite-para": "ES I'm white",
+      "white--cite-src": "ES #OECDEconomicOutlook, https://www.oecd.org/"
+    }
+  }
+}

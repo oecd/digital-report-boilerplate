@@ -1,37 +1,49 @@
-<h2 class="title">
-	The future of work is now. <span class="title--highlight">Are we ready?</span>
-</h2>
-<p>
-	Changes brought by new technologies and globalisation are
-	rapidly reshaping how we work and live.<br> There has been a
-	lot of talk about the future of work, but now we must turn
-	words into action.
-</p>
-<div class="video">
-	<img class="video__arrows" src="../../images/arrows--orange.svg" alt="arrows">
-	<div class="video__cover" style="background: url('${require(`../../images/video.jpg`)}') center/cover no-repeat">
-		<div class="video__mask"></div>
-		<div class="video__content">
-			<div class="video__box js-play" data-video="https://www.youtube.com/embed/x8SFQAHm8lI">
-				<div class="video__text">Play the video</div>
-				<button class="video__picto video__picto--green">
-					<img src="../../images/play--white.svg" alt="arrow">
-				</button>
+<div class="container" id="video-block">
+	<div class="row">
+		<div class="col-md-10 offset-md-1">
+			<h2 class="title" data-i18n="[html]title">
+				<!--Title1-->
+			</h2>
+			<div data-i18n="title-secondary-1" class="[html]title title--secondary my-0">
+				<!--Title2-->
 			</div>
-			<div class="video__box">
-				<div class="ssk-group social visually-hidden" data-title="40% of jobs created between 2005 and 2016 were in digitally intensive sectors">
-					<div class="social__word social__word--invert">Share</div>
-					<a class="ssk ssk-facebook social__item social__item--facebook" href="">
-						<img src="../../images/facebook--emerald.svg" alt="Facebook">
-					</a>
-					<a class="ssk ssk-twitter social__item social__item--twitter" href="">
-						<img src="../../images/twitter--emerald.svg" alt="Twitter">
-					</a>
-					<a class="ssk ssk-linkedin social__item social__item--linkedin" href="">
-						<img src="../../images/linkedin--emerald.svg" alt="LinkedIn">
-					</a>
-				</div><!--/.social-->
+			<p data-i18n="[html]text-1"><!--Default  TEXT 1--></p>
+			<p data-i18n="[html]text-2"><!--Default  TEXT 2--></p>
+
+			<!-- Embed Responsive Video 16by9 or 4by3 -->
+			<div class="embed-responsive embed-responsive-16by9 col-md-10  offset-md-1" >
+				<iframe data-i18n="[src]video-src" src="" ></iframe>
 			</div>
-		</div>
-	</div>
-</div>
+
+			<!-- Video avec pop-up to AVOID as it needs 2 clicks for users-->
+			<div class="video">
+				<img class="video__arrows" src="../../images/arrows--orange.svg" alt="arrows">
+				<div class="video__cover" style="background: url('${require(`../../images/video.jpg`)}') center/cover no-repeat">
+					<div class="video__mask"></div>
+					<div class="video__content">
+						<div class="video__box js-play" data-video="https://www.youtube.com/embed/x8SFQAHm8lI">
+							<div class="video__text">Play the video</div>
+							<button class="video__picto video__picto--green">
+								<img src="../../images/play--white.svg" alt="arrow">
+							</button>
+						</div>
+						<div class="video__box">
+							<div class="ssk-group social visually-hidden" data-title="40% of jobs created between 2005 and 2016 were in digitally intensive sectors">
+								<div class="social__word social__word--invert">Share</div>
+								<a class="ssk ssk-facebook social__item social__item--facebook" href="">
+									<img src="../../images/facebook--emerald.svg" alt="Facebook">
+								</a>
+								<a class="ssk ssk-twitter social__item social__item--twitter" href="">
+									<img src="../../images/twitter--emerald.svg" alt="Twitter">
+								</a>
+								<a class="ssk ssk-linkedin social__item social__item--linkedin" href="">
+									<img src="../../images/linkedin--emerald.svg" alt="LinkedIn">
+								</a>
+							</div><!--/.social-->
+						</div>
+					</div>
+				</div>
+			</div><!-- /. Video avec pop-up -->
+	</div>	<!-- /.end col-->	
+	</div><!--/.end row-->		
+</div><!--/.container-->
