@@ -9,13 +9,11 @@ let sticky = navbar.offset().top + 5;
 const reactToPageYOffsetChange = () => {
   if (window.pageYOffset >= sticky) {
     navbar.addClass('sticky');
-    links.removeClass('force-visible');
-    burgerButton.addClass('internal-nav__toggle__force-visible');
   } else {
     navbar.removeClass('sticky');
-    links.addClass('force-visible');
-    burgerButton.removeClass('internal-nav__toggle__force-visible');
   }
+
+  links.removeClass('force-visible');
   burgerButton.removeClass('is-open');
 }
 
