@@ -11,7 +11,18 @@
 }
 
 .internal-nav__nav {
+    display: flex;
     width: 100%;
+}
+
+.internal-nav__lang-sel {
+    display: none;
+}
+
+.internal-nav__lang-sel-visible {
+    @include respond-to('large') {
+        display: block;
+    }
 }
 
 .internal-nav__toggle {
@@ -53,6 +64,19 @@
 
 #navbar a:hover {
     text-decoration: underline;
+}
+
+#navbar a.lang-sel-item {
+    font-weight: normal;
+    &:hover {
+        text-decoration: none;
+    }
+    &::before {
+        content: '\203A';
+        margin-right: .33em;
+        @include font-size(20px);
+        color: color('oecd', 'lighter');
+    }
 }
 
 /* Page content */
