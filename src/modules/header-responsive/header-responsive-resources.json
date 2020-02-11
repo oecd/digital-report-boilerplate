@@ -1,0 +1,41 @@
+{
+  "en": {
+    "header-responsive": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019",
+      "title": "Mon test 018",
+      "main-title": "OECD sees rising trade tensions and policy uncertainty further weakening global growth",
+      "button-explore": "Explore the november 2018 issue"
+    }
+  },
+  "fr": {
+    "header-responsive": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org [fr]",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment [fr]",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019 [fr]",
+      "title": "OECD Economics Outlook November 2018 [fr]",
+      "main-title": "Global growth is weakening, risks are rising [fr]",
+      "button-explore": "Explore the november 2018 issue [fr]"
+    }
+  },
+  "es": {
+    "header-responsive": {
+      "breadcrumb-link-1-href": "http://www.oecd.org/",
+      "breadcrumb-link-1-text": "oecd.org [es]",
+      "breadcrumb-link-2-href": "http://www.oecd.org/employment/",
+      "breadcrumb-link-2-text": "employment [es]",
+      "breadcrumb-link-3-href": "https://www.oecd-ilibrary.org/sites/9ee00155-en/index.html?itemId=/content/publication/9ee00155-en",
+      "breadcrumb-link-3-text": "discover the employment outlook 2019 [es]",
+      "title": "OECD Economics Outlook November 2018 [es]",
+      "main-title": "Global growth is weakening, risks are rising [es]",
+      "button-explore": "Explore the november 2018 issue [es]"
+    }
+  }
+}
