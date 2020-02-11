@@ -1,20 +1,20 @@
 {
   "en": {
-    "text-block": {
-      "title": "(EN) <span class='title--highlight'>Global growth</span>is slow",
+    "featured-block": {
+      "title": "(EN) <span class='title--highlight'>Featured</span>stories",
       "text-1": "(EN) Paragraph paragraph",
       "list-items": "<li>(EN) Trade</li><li>Growth</li><li>Stock</li><li>Markets</li>"
     }
   },
   "fr": {
-    "text-block": {
+    "featured-block": {
       "title": "(FR) <span class='title--highlight'>Titre</span> ici",
       "text-1": "(FR) Paragraph paragraph",
       "list-items": "<li>(FR) Trade</li><li>Growth</li><li>Stock</li><li>Markets</li>"
     }
   },
   "es": {
-    "text-block": {
+    "featured-block": {
       "title": "(ES) <span class='title--highlight'>Global growth</span>is slow",
       "text-1": "(ES) Paragraph paragraph",
       "list-items": "<li>(ES) Trade</li><li>Growth</li><li>Stock</li><li>Markets</li>"
