@@ -5,8 +5,9 @@
     overflow: hidden;
     background-color: #333;
     z-index: 20; /* pop-in divs have z-index of 30 and should cover the menu */
-    font-size: larger;
+    font-size: medium;
     font-family: Oswald, sans-serif;
+    font-weight: 400;
     width: 100%;
 }
 
@@ -37,7 +38,7 @@
     display: none;
     color: #f2f2f2;
     text-align: left;
-    padding: 14px;
+    padding: 1em 1.5em;
     text-decoration: none;
     width: calc(100% - 50px);
 
