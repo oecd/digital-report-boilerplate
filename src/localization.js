@@ -19,6 +19,7 @@ import videoRessources from './modules/video/video-resources.json';
 import featuredStoriesRessources from './modules/featured-stories/featured-stories.json';
 import keyFactsResources from './modules/key-facts/key-facts-resources.json';
 import publicationsEconomicResources from './modules/publications/publications--economic-resources.json';
+import podcastResources from './modules/podcast/podcast-resources.json';
 import creditsResources from './modules/credits/credits-resources.json';
 import footerResources from './modules/footer/footer-resources.json';
 
@@ -39,6 +40,7 @@ const resourceList = [
   featuredStoriesRessources,
   keyFactsResources,
   publicationsEconomicResources,
+  podcastResources,
   creditsResources,
   footerResources,
 ];
@@ -77,6 +79,7 @@ i18next.init({
   $('#video-block').localize({ ns: 'video-block' });
   $('#featured-stories-txt').localize({ ns: 'featured-block' });
   $('#discover-report').localize({ ns: 'publications--economic' });
+  $('#podcast-block').localize({ ns: 'podcast' });
   $('#credits-block').localize({ ns: 'credits-id' });
   $('#footer').localize({ ns: 'footer' });
 });
