@@ -10,6 +10,7 @@ import headerResponsiveResources from './modules/header-responsive/header-respon
 import stickyHeaderResources from './modules/sticky-header/sticky-header-resources.json';
 import keyMessagesResources from './modules/key-messages/key-messages-resources.json';
 import keyFactsSliderResources from './modules/key-facts-slider/key-facts-slider-resources.json';
+import keyDataResources from './modules/key-data/key-data-resources.json';
 import textBlockResources from './modules/text-block/text-block-resources.json';
 import compareYourCountryResources from './modules/compare-your-country/compare-your-country-resources.json';
 import keyTopicsResources from './modules/key-topics/key-topics-resources.json';
@@ -31,6 +32,7 @@ const resourceList = [
   stickyHeaderResources,
   keyMessagesResources,
   keyFactsSliderResources,
+  keyDataResources,
   textBlockResources,
   compareYourCountryResources,
   keyTopicsResources,
@@ -68,6 +70,7 @@ i18next.init({
   $('#navbar').localize({ ns: 'sticky-header' });
   $('#key-messages').localize({ ns: 'key-messages' });
   $('#key-facts-slider-content').localize({ ns: 'key-facts-slider-block' });
+  $('#key-data-block').localize({ ns: 'key-data' });
   $('#text-block').localize({ ns: 'text-block' });
   $('#compare-your-country').localize({ ns: 'compare-your-country' });
   $('#read-key-messages').localize({ ns: 'key-topics' });
