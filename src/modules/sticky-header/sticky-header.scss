@@ -12,7 +12,18 @@
 }
 
 .internal-nav__nav {
+    display: flex;
     width: 100%;
+}
+
+.internal-nav__lang-sel {
+    display: none;
+}
+
+.internal-nav__lang-sel-visible {
+    @include respond-to('large') {
+        display: block;
+    }
 }
 
 .internal-nav__toggle {
@@ -54,6 +65,29 @@
 
 #navbar a:hover {
     text-decoration: underline;
+}
+
+#navbar a.lang-sel-item {
+    font-weight: normal;
+    /* 
+        padding and margin-top should make up 14px 
+        which is the padding for #navbar a (see line 51)
+    */
+    padding: 5px;
+    margin: 9px 5px;
+    border: 1px solid rgb(103, 103, 103);
+    color: rgb(204, 204, 204);
+    border-radius: 4px;
+    &:hover {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+    }
+    // &::before {
+    //     content: '\203A';
+    //     margin-right: .33em;
+    //     @include font-size(20px);
+    // }
 }
 
 /* Page content */
