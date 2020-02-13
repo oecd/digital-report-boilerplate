@@ -29,6 +29,9 @@
   "fr": {
     "key-topics": {
       "title": "Key <span class='title--highlight'>topics</span> [fr]",
+      "img-1-href": "https://",
+      "img-1-src": "./img/kt02-fr.jpg",
+      "img-1-alt": "FR alternative text image",
       "tile-1-href": "http://www.oecd.org/",
       "tile-1-title": "Future of Work [fr]",
       "tile-2-href": "http://www.oecd.org/",
@@ -53,6 +56,9 @@
   "es": {
     "key-topics": {
       "title": "Key <span class='title--highlight'>topics</span> [es]",
+      "img-1-href": "https://",
+      "img-1-src": "./img/kt01.jpg",
+      "img-1-alt": "ES alternative text image",
       "tile-1-href": "http://www.oecd.org/",
       "tile-1-title": "Future of Work [es]",
       "tile-2-href": "http://www.oecd.org/",

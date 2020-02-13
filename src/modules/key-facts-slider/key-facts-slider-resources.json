@@ -27,7 +27,7 @@
       "para-1": "PARA 1FR - Lorem ipsum dolor sit amet",
       "cite-link": "",
       "cite-date-1": "1FR DATE",
-      "cite-para-1":"1FR Citation EN", 
+      "cite-para-1":"1FR Citation", 
       "cite-src-1":"1FR source",
       "slider-title-2": "2FR Title",
       "cite-date-2": "2FR DATE",
@@ -41,6 +41,28 @@
       "cite-date-4": "DATE 4",
       "cite-para-4":"Lorem ipsum dolor sit amet", 
       "cite-src-4":"source 4"
+     }
+  },
+  "es": {
+    "key-facts-slider-block": {
+      "slider-title-1": "1[ES] <span class='title--highlight'>TEXT</span>",
+      "para-1": "PARA 1[ES] - Lorem ipsum dolor sit amet",
+      "cite-link": "",
+      "cite-date-1": "1[ES] DATE",
+      "cite-para-1":"1[ES] Citation ", 
+      "cite-src-1":"1[ES] source",
+      "slider-title-2": "2[ES] Title",
+      "cite-date-2": "2[ES] DATE",
+      "cite-para-2": "2[ES] Citation",
+      "cite-src-2": "2[ES] source",
+      "slider-title-3": "Title 3 [ES]",
+      "cite-date-3": "[ES]DATE 3",
+      "cite-para-3":"[ES]Lorem ipsum dolor sit amet.", 
+      "cite-src-3":"[ES]source 3",
+      "slider-title-4": "Title 4 [ES]",
+      "cite-date-4": "[ES]DATE 4",
+      "cite-para-4":"[ES]Lorem ipsum dolor sit amet", 
+      "cite-src-4":"source 4 [ES]"
      }
   }
 }
