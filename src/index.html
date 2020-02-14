@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="${process.env.APP_LANG}">
+	<head id="index-id">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>OECD Employment Outlook 2019</title>
-	<meta property="og:url" content="https://www.oecd.org/employment/outlook/">
-	<meta property="og:title" content="OECD Employment Outlook 2019">
-	<meta property="og:image" content="https://www.oecd.org/employment/outlook/img/muhammad_afzal.jpg">
+	<title data-i18n="index-title">Templte modules</title>
+	<meta name="description" data-i18n="[description]index-description"  description="">
+	<meta property="og:site_name" content="OECD/SWAC SWAC - Sahel and West Africa Club Secretariat">
+	<meta property="og:type" content="”website”">
+	<meta property="og:url" content="http://www.oecd.org/.../">
+	<meta property="og:title" content="Shaping Africa’s urban future together">
+	<meta property="og:description" data-i18n="[content]index-description" content="">
+	<meta property="og:image" content="https://oecd.dam-broadcast.com/pm_7379_116_116444-sxv6g2kvvj.jpg">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="OECD Employment Outlook 2019">
-	<meta name="twitter:image" content="https://www.oecd.org/employment/outlook/img/muhammad_afzal.jpg">
-</head>
+	<meta name="twitter:site" content="@OECD">
+	<meta name="twitter:creator" content="@OECD">
+	<meta name="twitter:title" content="Shaping Africa’s urban future">
+	<meta name="twitter:image" content="https://oecd.dam-broadcast.com/pm_7379_116_116444-sxv6g2kvvj.jpg">
+	<link rel="canonical" href="https://www.example.com/en/" />
+	<link rel="alternate" hreflang="fr" href="">
+	<link rel="alternate" hreflang="es" href="">
+	<link rel="alternate" hreflang="de" href="">
+	<link rel="alternate" hreflang="x-default" href="https://www.example.com/en/" />
+    <link rel="icon" href="https://www.oecd.org/media/oecdorg/satellitesites/swac/africa-icon.png" type="image/x-icon">
+		<!--OECD ICO  https://www.oecd.org/economic-outlook/november-2019/img/favicon.ico --> 
 
 <script>
 	dataLayer = [{
@@ -36,6 +48,8 @@
 	})(window, document, 'script', 'dataLayer', 'GTM-P5JSM4P');
 </script>
 <!-- End Google Tag Manager -->
+</head>
+
 <body data-spy="scroll" data-target="#navbar">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
@@ -58,16 +72,20 @@
 			pop-in part of...
 		-->
 
+
+	
 		<!-- Publication title and header #1 -->
 		${require('./modules/header-publication/header-publication.html')}
+		<!-- Publication header RESPONSIVE VIDEO  -->
+		${require('./modules/header-responsive/header-responsive.html')}
 
 		<!-- Sticky header menu -->
 		${require('./modules/sticky-header/sticky-header.html')}
 
 		<!-- Different blockquote tyme -->
-		<a name="quote1"></a>
+		<a name="quote"></a>
 		<br/>
-		<div class="site-content site-content--gray" id="quote1">
+		<div class="site-content site-content--gray" id="quote">
 				${require('./modules/blockquote/blockquote.html')}
 		</div>
 		<div class="site-content"> 
@@ -78,69 +96,91 @@
 		</div>
 		<!--/.blockquote-->
 
-		<!-- div text (gray bckgnd) overlapping image on right -->
-		<div class="site-content" id=""> 
+		<!-- text block (gray bckgnd) overlapping image on right -->
+		<a name="story"></a>
+		<div class="site-content" id="story"> 
 				${require('./modules/featured-stories/featured-stories.html')}
 		</div>
 
-		<!-- div text (no bckgnd) and image side by side -->
-		<div class="site-content"> 
+		<!--  side by side: text block + image -->
+		<a name="read-more"></a>
+		<div class="site-content" id="read-more"> 
 			${require('./modules/read-more/read-more.html')}
 		</div>
 
-		<!-- @2DO -->
-		<!-- Same siplay as blockquote but the entire module is sliding -->
-		<div class="site-content">   
+		<!-- Same diplay as blockquote but the entire module is sliding -->
+		<a name="citation"></a>
+		<div class="site-content" id="citation">   
 			${require('./modules/key-facts-slider/key-facts-slider.html')}
 		</div>
 
 		<!-- Key-facts - rectangular panel caroussel-->
-		<div class="site-content site-content--secondary">
-							${require('./modules/key-facts/key-facts.html')}
-			</div>
+		<a name="facts"></a>
+		<div class="site-content site-content--secondary" id="facts">
+			${require('./modules/key-facts/key-facts.html')}
+		</div>
 
 		<!-- Ribbon image-->
 		<div class="site-content site-content--no-padding">
 					${require('./modules/image-separator/image-separator.html')}
 		</div>
 							
-		<a name="read-key-messages"></a>
-		<!--/.Key Topics square caroussel with dark background-->
-		<div class="site-content site-content--gray" id="read-key-messages">
+		<!-- Key Topics square caroussel with dark background-->
+		<a name="topics"></a>
+		<div class="site-content site-content--gray" id="topics">
 			${require('./modules/key-topics/key-topics.html')}
 		</div>
 
-		<a name="key-messages"></a>
-		<!--Key-message: 3 flipping panel-->
-		<div class="site-content site-content--secondary" id="key-messages">
+		<a name="messages"></a>
+		<!-- Key-message: 3 flipping panel-->
+		<div class="site-content site-content--secondary" id="message">
 			${require('./modules/key-messages/key-messages.html')}
 		</div>
 
-		<a name="discover-report"></a>
-		<!--/.Publication and Key Resources -->
-		<div class="site-content" id="discover-report">
+		<a name="publications"></a>
+		<!-- Publication and Key Resources -->
+		<div class="site-content" id="publications">
 			${require('./modules/publications/publications--economic.html')}
 		</div>
 		
-		<!-- @2DO to update with EO November-->
+		<!-- Dynamic graph Projection -->
 		<a name="projections-by-country"></a>
 		<br/>
 		<div class="site-content" id="projections-by-country">
 			${require('./modules/projections-by-country/projections-by-country.html')}
 		</div>		
 
+	<!-- block with embeded iframe -->
 		<a name="compare-your-country"></a>
 		<br/>
-		<!-- just a block with a country map embeded -->
 		<div class="site-content" id="compare-your-country">
 			${require('./modules/compare-your-country/compare-your-country.html')}
 		</div>
 
 		<!-- Text block -->
+		<a name=""></a>
 		<div class="site-content site-content--gray" id="text-block">
 			${require('./modules/text-block/text-block.html')}
 		</div>	
-	
+
+		<!-- Embeded video, 2 options: a) iframe embedded b) pop-up to view the video -->
+		<a name="video"></a>
+		<div class="site-content site-content--gray" id="video">
+			${require('./modules/video/video.html')}
+		</div>
+
+		<!-- Podcast  -->
+		<a name="podcast"></a>
+		<div class="site-content" id="podcast">
+			${require('./modules/podcast/podcast.html')}
+		</div>
+
+		<!-- key data -->
+		<a name="data"></a>
+		<div class="site-content" id="data">
+			${require('./modules/key-data/key-data.html')}
+		</div>
+			
 		<a name="watch-interview"></a>
 		<br/>
 		<div id="watch-interview">
@@ -148,18 +188,6 @@
 			${require('./modules/header-video/header-video.html')}
 		</div>
 
-		<a name="video"></a>
-		<!-- Embeded video, 2 options: a) iframe embedded b) pop-up to view the video -->
-		<div class="site-content  site-content--gray" id="video">
-			${require('./modules/video/video.html')}
-		</div>	
-
-		<!-- Podcast -->
-		<div class="site-content">
-			${require('./modules/podcast/podcast.html')}
-		</div>
-
-				
 		<!-- SPECIAL MODEL @2 review. Recomend not to use, UX issues 
 				<div class="site-content site-content--panel">
 					\${require('./modules/panel/panel.html')}
@@ -179,6 +207,7 @@
 
 	<!-- always required -->
 	${require('./modules/go-top-btn/go-top-btn.html')}
+	${require('./modules/credits/credits.html')}
 	${require('./modules/footer/footer.html')}
 	${require('./modules/pop-in/pop-in.html')}
 	${require('./modules/social-sticky/social-sticky.html')}

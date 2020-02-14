@@ -1,6 +1,12 @@
 // key-facts.scss
 @import "../../styles/helpers";
 
+
+.key-facts__over:hover {
+	background-color:#081722;
+	border-radius:6px;
+	transform: translate(0, -1px);
+}
 .key-facts {
 	position: relative;
 	margin-top: 15px;

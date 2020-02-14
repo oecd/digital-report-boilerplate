@@ -1,29 +1,50 @@
 {
   "en": {
     "sticky-header": {
-      "link-1-text": "Understand the Key Messages",
-      "link-2-text": "Read the Report",
-      "link-3-text": "Compare Your Country",
-      "link-4-text": "Watch the Interview",
-      "link-5-text": "video"
-    }
+      "link-1-text": "Blockquote ",
+      "link-2-text": "Featured stories",
+      "link-3-text": "Read more",
+      "link-4-text": "Citation",
+      "link-5-text": "Facts",
+      "link-6-text": "Topics",
+      "link-7-text": "Messages",
+      "link-8-text": "Publications",
+      "link-9-text": "Projection",
+      "link-10-text": "Video",
+      "link-11-text": "podcast",
+      "link-12-text": "data"
+}
   },
   "fr": {
     "sticky-header": {
-      "link-1-text": "Understand the Key Messages [fr]",
-      "link-2-text": "Read the Report [fr]",
-      "link-3-text": "Compare Your Country [fr]",
-      "link-4-text": "Watch the Interview [fr]",
-      "link-5-text": "vidéoFR"
+      "link-1-text": "Blockquote [fr]",
+      "link-2-text": "Featured stories [fr]",
+      "link-3-text": "Read more [fr]",
+      "link-4-text": "Citation [fr]",
+      "link-5-text": "Facts [fr]",
+      "link-6-text": "Topics [fr]",
+      "link-7-text": "Messages [fr]",
+      "link-8-text": "Publications [fr]",
+      "link-9-text": "Projection [fr]",
+      "link-10-text": "Video [fr]",
+      "link-11-text": "podcast [fr]",
+      "link-12-text": "data [fr]"
     }
   },
   "es": {
     "sticky-header": {
-      "link-1-text": "Understand the Key Messages [es]",
-      "link-2-text": "Read the Report [es]",
-      "link-3-text": "Compare Your Country [es]",
-      "link-4-text": "Watch the Interview [es]",
-      "link-5-text": "videoES"
+      "link-1-text": "Blockquote [es]",
+      "link-2-text": "Featured stories [es]",
+      "link-3-text": "Read more [es]",
+      "link-4-text": "citation [es]",
+      "link-5-text": "Facts [es]",
+      "link-6-text": "Topics [es]",
+      "link-7-text": "Messages [es]",
+      "link-8-text": "Publications [es]",
+      "link-9-text": "Projection [es]",
+      "link-10-text": "Video [es]",
+      "link-11-text": "podcast [es]",
+      "link-12-text": "data [es]"
     }
   }
 }

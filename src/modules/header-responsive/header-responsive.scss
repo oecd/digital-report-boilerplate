@@ -1,0 +1,165 @@
+// header-responsive.scss
+@import "../../styles/helpers";
+
+.container_minheight {
+	min-height: 130px;
+}
+.header-position {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: unset // #001b3300; Trick pour contourner img background - couleur transparente 
+
+}
+// ajouté par Marco. Voir https://la-cascade.io/video-en-background/ et https://codepen.io/dudleystorey/pen/knqyK
+// image en arrière plan supprimé dans header-publication_content
+video { 
+	position: absolute;
+	// top: 50%; permet d'avoir la vidéo centré sur la page - lié avec 'transform'
+	// left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	// transform: translateX(-50%) translateY(-50%);
+// background: url('../../images/africa-urbanisation-cover.jpg') center/cover no-repeat;
+background-size: cover;
+// transition: 0.2s opacity;
+}
+
+.header-publication {
+	position: relative;
+	width: 100%;
+	&__content {
+		padding: 20px 0;
+		//background: url("../../images/header-publication.jpg") center/cover no-repeat;
+		color: color('background');
+
+		.header-video & {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+
+		@include respond-to('medium') {
+			padding: 40px 0;
+
+			.header-video & {
+				margin-left: -15px;
+				margin-right: -15px;
+
+				@include respond-to('large') {
+					padding-top: 50px;
+					padding-left: 50px;
+					margin-right: 45px;
+				}
+			}
+		}
+
+		&--mobile {
+			padding: 30px 0;
+			color: color('background', 'invert');
+			background: color('gray');
+
+			.header-video & {
+				margin-left: -15px;
+				margin-right: -15px;
+				padding-bottom: 60px;
+			}
+
+			@include respond-to('medium') {
+				display: none;
+			}
+		}
+	}
+
+	&__title {
+		display: none;
+		margin: 0;
+		font-family: font('secondary');
+		@include font-size(40px);
+		line-height: em(50px, 40px);
+
+		@include respond-to('medium') {
+			display: block;
+			margin: 30px 0 0 0;
+			@include font-size(50px);
+			line-height: em(60px, 50px);
+		}
+
+		.header-publication__content--mobile & {
+			display: block;
+		}
+
+		@include respond-to('large') {
+			margin: 2vh 0 0 0;
+			@include font-size(70px);
+			line-height: em(80px, 70px);
+
+			.header-video & {
+				margin: 0;
+				@include font-size(50px);
+				line-height: em(60px, 50px);
+			}
+		}
+		.header-title {
+			font-family: font('secondary');
+			font-size: 4.5vw;
+			line-height: 1.1;
+		}	
+	}
+
+	&__tag {
+		display: none;
+		font-family: font('secondary');
+		@include font-size(28px);
+		line-height: em(50px, 28px);
+
+		.header-publication__content--mobile & {
+			display: block;
+		}
+
+		@include respond-to('medium') {
+			display: block;
+			margin-top: 20px;
+			@include font-size(36px);
+			line-height: em(60px, 36px);
+		}
+
+		@include respond-to('large') {
+			@include font-size(50px);
+			line-height: em(80px, 50px);
+
+			.header-video & {
+				@include font-size(35px);
+				line-height: em(60px, 35px);
+			}
+		}
+	}
+
+	&__label {
+		display: block;
+		margin-bottom: 10px;
+		font-family: font('secondary');
+		@include font-size(18px);
+		font-weight: 300;
+		line-height: em(44px, 18px);
+
+		@include respond-to('medium') {
+			margin-top: 20px;
+			margin-bottom: 0;
+		}
+
+		@include respond-to('large') {
+			margin-top: 40px;
+			@include font-size(26px);
+			font-weight: 300;
+			line-height: em(44px, 26px);
+
+			.header-video & {
+				margin-top: 10px;
+				@include font-size(20px);
+			}
+		}
+	}
+}

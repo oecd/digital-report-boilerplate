@@ -1,0 +1,23 @@
+{
+  "en": {
+    "podcast": {
+      "podcast-title": "[EN] <class='title--highlight'>podcast</span> title",
+      "podcast-para-1": "[EN] This episode of OECD Podcasts investigates.",
+      "podcast-href" : "//w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/578424357&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    }
+  },
+  "fr": {
+    "podcast": {
+      "podcast-title": "[FR] - Podcast title",
+      "podcast-para-1": "[FR] This episode of OECD Podcasts investigates.",
+      "podcast-href" : "//w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/578424357&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    }
+  },
+  "es": {
+    "podcast": {
+      "podcast-title": "[ES]- Podcast title",
+      "podcast-para-1": "[ES] This episode of OECD Podcasts investigates.",
+      "podcast-href" : "//w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/578424357&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    }
+  }
+}

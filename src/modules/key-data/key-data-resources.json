@@ -1,0 +1,63 @@
+{
+  "en": {
+    "key-data": {
+      "title-1": "Key data <span class='title--highlight'>- EN</span>",
+      "intro-para-1": "Intro para - EN.",
+      "title-secondary-1": "Secondary title 1 - EN",
+      "img-src-1a": "/img/keydata-1.png",
+      "img-alt-1a": "first image",
+      "img-src-1b": "/img/keydata-2.png",
+      "img-alt-1b": "second image",
+      "img-src-1c": "/img/keydata-3.png",
+      "img-alt-1c": "third image",
+      "img-src-1d": "/img/keydata-4.png",
+      "img-alt-1d": "fourth image",
+      "social-title-1": "Text shared on social media",
+      "social-verb": "Share",
+      "title-secondary-2": "Secondary title 2 - EN",
+      "iframe-chart-1": "<iframe src='https://data.oecd.org/chart/5KBT' width='100%' height='445' style='border: 0' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'></iframe>",
+      "legend-href": "https://doi.org/10.1787/888933966046",
+      "legend-verb": "Download in Excel"
+    }
+  },
+  "fr": {
+    "key-data": {
+      "title-1": "Key data <span class='title--highlight'>- FR</span>",
+      "intro-para-1": "Intro para - FR.",
+      "title-secondary-1": "Secondary title 1 - FR",
+      "img-src-1a": "/img/keydata-1.png",
+      "img-alt-1a": "first image FR",
+      "img-src-1b": "/img/keydata-2.png",
+      "img-alt-1b": "second image FR",
+      "img-src-1c": "/img/keydata-3.png",
+      "img-alt-1c": "third image FR",
+      "img-src-1d": "/img/keydata-4.png",
+      "img-alt-1d": "fourth image FR",
+      "social-title-1": "FR - Text shared on social media",
+      "social-verb": "Partager",
+      "title-secondary-2": "Secondary title 2 - FR",
+      "iframe-chart-1": "<iframe src='https://data.oecd.org/chart/5KBT' width='100%' height='445' style='border: 0' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'></iframe>",
+      "legend-href": "https://doi.org/10.1787/888933966046",
+      "legend-verb": "Telecharger Excel - FR"    }
+  },
+  "es": {
+    "key-data": {
+      "title-1": "Key data <span class='title--highlight'>- ES</span>",
+      "intro-para-1": "Intro para - ES.",
+      "title-secondary-1": "Secondary title 1 - ES",
+      "img-src-1a": "/img/keydata-1.png",
+      "img-alt-1a": "first image",
+      "img-src-1b": "/img/keydata-2.png",
+      "img-alt-1b": "sedond image",
+      "img-src-1c": "/img/keydata-3.png",
+      "img-alt-1c": "third image",
+      "img-src-1d": "/img/keydata-4.png",
+      "img-alt-1d": "fourth image",
+      "social-title-1": "Text shared on social media ES",
+      "social-verb": "Share ES",
+      "title-secondary-2": "Secondary title 2 - ES",
+      "iframe-chart-1": "<iframe src='https://data.oecd.org/chart/5KBT' width='100%' height='445' style='border: 0' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'></iframe>",
+      "legend-href": "https://doi.org/10.1787/888933966046",
+      "legend-verb": "Download in Excel - ES"    }
+  }
+}

@@ -1,0 +1,57 @@
+<div class="header-publication" id="header-responsive">
+
+
+	<div class="embed-responsive embed-responsive-21by9">
+		<video  poster="./img/africa-urbanisation-cover.jpg" style="width:auto" id="bgvid"  playsinline autoplay muted loop>
+			<!-- 	
+				- cover video in case of video not playing (854x480)
+				- video has been reduced with VLC convert to a youtube HD dimension (1280x720) - if possible 854x480  HD see thenewcode.com/assets/videos/polina.mp4
+				- Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+				- WCAG general accessibility recommendation is that media such as background video play through only once.
+				- Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+				<source src="http://www.oecd.org/urbanisation-afrique/img/africa-urbanisation-en-afrique-video-low2.mp4" type="video/mp4">
+				<source src="./img/africa-urbanisation-en-afrique-video-low.webm" type="video/webm"> 
+		</video>
+		</div>
+
+	<div class="site-content site-content--no-padding header-publication__content header-position">
+		<div class="container container_minheight">
+			<div class="row">
+				<div class="col-sm-12 offset-lg-1">
+					${require('../breadcrumb/breadcrumb.html')}
+				</div><!--/.col-->
+			</div><!--/.row-->
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="header-publication__title">
+						<div class="header-publication__label" data-i18n="title">
+								<!-- sup-TITLE-->
+						</div>
+						<h1 class="header-title" data-i18n="[html]main-title">
+								<!-- MAIN TITLE-->
+						</h1>
+					</div><!--/.header-publication__title-->
+
+				</div><!--/.col-->
+			</div><!--/.row-->
+		</div><!--/.container-->
+	</div><!--/.site-content-->
+	<div class="site-content header-publication__content--mobile">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header-publication__title">
+						<div class="header-publication__label" data-i18n="title">
+							<!-- sup-TITLE-->
+						</div>
+						<span data-i18n="main-title"><!-- MAIN TITLE--></span>
+					</div><!--/.header-publication__title-->
+					<div class="header-publication__tag" data-i18n="hashtag-title">
+								<!-- #OECDeconomicOutlook -->
+					</div><!--/.header-publication__tag-->
+					<a href="#" class="btn-default" data-i18n="button-explore">Explore the issue</a>
+				</div><!--/.col-->
+			</div><!--/.row-->
+		</div><!--/.container-->
+	</div><!--/.site-content-->
+</div><!--/.header-publication-->

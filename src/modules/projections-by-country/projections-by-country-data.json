@@ -1,969 +1,1032 @@
 [
   {
+    "id": "WORLD",
+    "en": {
+      "label": "WORLD",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOW",
+      "oecdOrgUrl": "http://www.oecd.org/economy/surveys/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/oecd-economic-outlook-volume-2019-issue-2_9b89401b-en"
+    },
+    "fr": {
+      "label": "MONDE",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQz",
+      "oecdOrgUrl": "http://www.oecd.org/economy/surveys/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/perspectives-economiques-de-l-ocde-volume-2019-numero-2_77c8f557-fr"
+    },
+    "es": {
+      "label": "MUNDO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOW",
+      "oecdOrgUrl": "http://www.oecd.org/economy/surveys/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/oecd-economic-outlook-volume-2019-issue-2_9b89401b-en"
+    },
+    "isDefault": true
+  },
+  {
     "id": "ARGENTINA",
     "en": {
       "label": "ARGENTINA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOY",
       "oecdOrgUrl": "http://www.oecd.org/economy/argentina-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6dcde72c-en/index.html?itemId=/content/component/6dcde72c-en"
     },
     "fr": {
       "label": "ARGENTINE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQB",
       "oecdOrgUrl": "http://www.oecd.org/fr/eco/etudes/economie-argentine-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6dcde72c-en/index.html?itemId=/content/component/6dcde72c-en"
     },
     "es": {
       "label": "ARGENTINA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOY",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-argentina/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6dcde72c-en/index.html?itemId=/content/component/6dcde72c-en"
     }
   },
   {
     "id": "AUSTRALIA",
     "en": {
       "label": "AUSTRALIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgJ",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOZ",
       "oecdOrgUrl": "http://www.oecd.org/economy/australia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/5f30d10c-en/index.html?itemId=/content/component/5f30d10c-en"
     },
     "fr": {
       "label": "AUSTRALIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgJ",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQE",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/australie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/5f30d10c-en/index.html?itemId=/content/component/5f30d10c-en"
     },
     "es": {
       "label": "AUSTRALIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgJ",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOZ",
       "oecdOrgUrl": "http://www.oecd.org/economy/australia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/5f30d10c-en/index.html?itemId=/content/component/5f30d10c-en"
     }
   },
   {
     "id": "AUSTRIA",
     "en": {
       "label": "AUSTRIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP2",
       "oecdOrgUrl": "http://www.oecd.org/economy/austria-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2740e71f-en/index.html?itemId=/content/component/2740e71f-en"
     },
     "fr": {
       "label": "AUTRICHE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQG",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/autriche-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2740e71f-en/index.html?itemId=/content/component/2740e71f-en"
     },
     "es": {
       "label": "AUSTRIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP2",
       "oecdOrgUrl": "http://www.oecd.org/economy/austria-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2740e71f-en/index.html?itemId=/content/component/2740e71f-en"
     }
   },
   {
     "id": "BELGIUM",
     "en": {
       "label": "BELGIUM",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP3",
       "oecdOrgUrl": "http://www.oecd.org/economy/belgium-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/bab14823-en/index.html?itemId=/content/component/bab14823-en"
     },
     "fr": {
       "label": "BELGIQUE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQI",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/belgique-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/2/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "BÉLGICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP3",
       "oecdOrgUrl": "http://www.oecd.org/economy/belgium-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/bab14823-en/index.html?itemId=/content/component/bab14823-en"
     }
   },
   {
     "id": "BRAZIL",
     "en": {
       "label": "BRAZIL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgY",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP5",
       "oecdOrgUrl": "http://www.oecd.org/economy/brazil-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9fb23ece-en/index.html?itemId=/content/component/9fb23ece-en"
     },
     "fr": {
       "label": "BRÉSIL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgY",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQK",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/bresil-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/3/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "BRASIL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zgY",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JP5",
       "oecdOrgUrl": "http://www.oecd.org/economy/brazil-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9fb23ece-en/index.html?itemId=/content/component/9fb23ece-en"
+    }
+  },
+  {
+    "id": "BULGARIA",
+    "en": {
+      "label": "BULGARIA",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCL",
+      "oecdOrgUrl": "http://www.oecd.org/economy/bulgaria-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/efac7c98-en/index.html?itemId=/content/component/efac7c98-en"
+    },
+    "fr": {
+      "label": "BULGARIE",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCO",
+      "oecdOrgUrl": "http://www.oecd.org/economy/bulgaria-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/efac7c98-en/index.html?itemId=/content/component/efac7c98-en"
+    },
+    "es": {
+      "label": "BULGARIA",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCL",
+      "oecdOrgUrl": "http://www.oecd.org/economy/bulgaria-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/efac7c98-en/index.html?itemId=/content/component/efac7c98-en"
     }
   },
   {
     "id": "CANADA",
     "en": {
       "label": "CANADA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zh4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPb",
       "oecdOrgUrl": "http://www.oecd.org/economy/canada-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/cd3e883d-en/index.html?itemId=/content/component/cd3e883d-en"
     },
     "fr": {
       "label": "CANADA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zh4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQM",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/canada-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/4/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "CANADÁ",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zh4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPb",
       "oecdOrgUrl": "http://www.oecd.org/economy/canada-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/cd3e883d-en/index.html?itemId=/content/component/cd3e883d-en"
     }
   },
   {
     "id": "CHILE",
     "en": {
       "label": "CHILE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhu",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPf",
       "oecdOrgUrl": "http://www.oecd.org/economy/chile-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/78af4ab2-en/index.html?itemId=/content/component/78af4ab2-en"
     },
     "fr": {
       "label": "CHILI",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhu",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQQ",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/chili-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/78af4ab2-en/index.html?itemId=/content/component/78af4ab2-en"
     },
     "es": {
       "label": "CHILE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhu",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPf",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-chile/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/78af4ab2-en/index.html?itemId=/content/component/78af4ab2-en"
     }
   },
   {
     "id": "CHINA",
     "en": {
       "label": "CHINA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPh",
       "oecdOrgUrl": "http://www.oecd.org/economy/china-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/856ec885-en/index.html?itemId=/content/component/856ec885-en"
     },
     "fr": {
       "label": "CHINE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQS",
       "oecdOrgUrl": "http://www.oecd.org/fr/eco/etudes/economie-chine-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/5/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "CHINA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPh",
       "oecdOrgUrl": "http://www.oecd.org/economy/china-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9b89401b-en/index.html?itemId=/content/publication/9b89401b-en"
     }
   },
   {
     "id": "COLOMBIA",
     "en": {
       "label": "COLOMBIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhD",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPk",
       "oecdOrgUrl": "http://www.oecd.org/economy/colombia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/20ed0419-en/index.html?itemId=/content/component/20ed0419-en"
     },
     "fr": {
       "label": "COLOMBIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhD",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQU",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/colombie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/20ed0419-en/index.html?itemId=/content/component/20ed0419-en"
     },
     "es": {
       "label": "COLOMBIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhD",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPk",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-colombia/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/20ed0419-en/index.html?itemId=/content/component/20ed0419-en"
     }
   },
   {
     "id": "COSTA RICA",
     "en": {
       "label": "COSTA RICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhK",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPm",
       "oecdOrgUrl": "http://www.oecd.org/economy/costa-rica-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2f11826f-en/index.html?itemId=/content/component/2f11826f-en"
     },
     "fr": {
       "label": "COSTA RICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhK",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQW",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/costa-rica-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2f11826f-en/index.html?itemId=/content/component/2f11826f-en"
     },
     "es": {
       "label": "COSTA RICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhK",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPm",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-costa-rica/",
-      "webBookUrl": "http://www.webbook.org"
-    },
-    "isDefault": true
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/2f11826f-en/index.html?itemId=/content/component/2f11826f-en"
+    }
   },
   {
     "id": "CZECH REPUBLIC",
     "en": {
       "label": "CZECH REPUBLIC",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQY",
       "oecdOrgUrl": "http://www.oecd.org/economy/czech-republic-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/02f5b000-en/index.html?itemId=/content/component/02f5b000-en"
     },
     "fr": {
       "label": "RÉPUBLIQUE TCHÈQUE",
       "dataPortalUrl": "https://data.oecd.org/chart/5zhO",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/republique-tcheque-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/02f5b000-en/index.html?itemId=/content/component/02f5b000-en"
     },
     "es": {
       "label": "REPUBLICA CHECA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPo",
       "oecdOrgUrl": "http://www.oecd.org/economy/czech-republic-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/02f5b000-en/index.html?itemId=/content/component/02f5b000-en"
     }
   },
   {
     "id": "DENMARK",
     "en": {
       "label": "DENMARK",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhS",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPs",
       "oecdOrgUrl": "http://www.oecd.org/economy/denmark-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8859feb6-en/index.html?itemId=/content/component/8859feb6-en"
     },
     "fr": {
       "label": "DANEMARK",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhS",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JR4",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/danemark-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8859feb6-en/index.html?itemId=/content/component/8859feb6-en"
     },
     "es": {
       "label": "DINAMARCA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhS",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPs",
       "oecdOrgUrl": "http://www.oecd.org/economy/denmark-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8859feb6-en/index.html?itemId=/content/component/8859feb6-en"
     }
   },
   {
     "id": "ESTONIA",
     "en": {
       "label": "ESTONIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhW",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPw",
       "oecdOrgUrl": "http://www.oecd.org/economy/estonia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/56c265eb-en/index.html?itemId=/content/component/56c265eb-en"
     },
     "fr": {
       "label": "ESTONIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhW",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JR8",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/estonie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/56c265eb-en/index.html?itemId=/content/component/56c265eb-en"
     },
     "es": {
       "label": "ESTONIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zhW",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPw",
       "oecdOrgUrl": "http://www.oecd.org/economy/estonia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/56c265eb-en/index.html?itemId=/content/component/56c265eb-en"
     }
   },
   {
     "id": "EURO AREA",
     "en": {
       "label": "EURO AREA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOR",
       "oecdOrgUrl": "http://www.oecd.org/economy/euro-area-and-european-union-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6ce9a2ab-en/index.html?itemId=/content/component/6ce9a2ab-en"
     },
     "fr": {
       "label": "ZONE EURO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQv",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Union-Europeenne-Zone-Euro-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/14/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "ZONA EURO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi4",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOR",
       "oecdOrgUrl": "http://www.oecd.org/economy/euro-area-and-european-union-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6ce9a2ab-en/index.html?itemId=/content/component/6ce9a2ab-en"
     }
   },
   {
     "id": "FINLAND",
     "en": {
       "label": "FINLAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOP",
       "oecdOrgUrl": "http://www.oecd.org/economy/finland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ba2ff085-en/index.html?itemId=/content/component/ba2ff085-en"
     },
     "fr": {
       "label": "FINLANDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRa",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Finlande-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ba2ff085-en/index.html?itemId=/content/component/ba2ff085-en"
     },
     "es": {
       "label": "FINLANDIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zi8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JOP",
       "oecdOrgUrl": "http://www.oecd.org/economy/finland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ba2ff085-en/index.html?itemId=/content/component/ba2ff085-en"
     }
   },
   {
     "id": "FRANCE",
     "en": {
       "label": "FRANCE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zic",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPy",
       "oecdOrgUrl": "http://www.oecd.org/economy/france-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/53bc8dfa-en/index.html?itemId=/content/component/53bc8dfa-en"
     },
     "fr": {
       "label": "FRANCE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zic",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRc",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/france-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/7/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "FRANCIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zic",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPy",
       "oecdOrgUrl": "http://www.oecd.org/economy/france-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/53bc8dfa-en/index.html?itemId=/content/component/53bc8dfa-en"
     }
   },
   {
     "id": "GERMANY",
     "en": {
       "label": "GERMANY",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zig",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPq",
       "oecdOrgUrl": "http://www.oecd.org/economy/germany-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/b9c32adc-en/index.html?itemId=/content/component/b9c32adc-en"
     },
     "fr": {
       "label": "ALLEMAGNE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zig",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JR0",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/allemagne-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/1/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "ALEMANIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zig",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPq",
       "oecdOrgUrl": "http://www.oecd.org/economy/germany-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/b9c32adc-en/index.html?itemId=/content/component/b9c32adc-en"
     }
   },
   {
     "id": "GREECE",
     "en": {
       "label": "GREECE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zik",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPC",
       "oecdOrgUrl": "http://www.oecd.org/economy/greece-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d535e8e6-en/index.html?itemId=/content/component/d535e8e6-en"
     },
     "fr": {
       "label": "GRÈCE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zik",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRh",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Grece-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d535e8e6-en/index.html?itemId=/content/component/d535e8e6-en"
     },
     "es": {
       "label": "GRECIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zik",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPC",
       "oecdOrgUrl": "http://www.oecd.org/economy/greece-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d535e8e6-en/index.html?itemId=/content/component/d535e8e6-en"
     }
   },
   {
     "id": "HUNGARY",
     "en": {
       "label": "HUNGARY",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zio",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPE",
       "oecdOrgUrl": "http://www.oecd.org/economy/hungary-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/b2be698d-en/index.html?itemId=/content/component/b2be698d-en"
     },
     "fr": {
       "label": "HONGRIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zio",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRj",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/hongrie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/b2be698d-en/index.html?itemId=/content/component/b2be698d-en"
     },
     "es": {
       "label": "HUNGRÍA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zio",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPE",
       "oecdOrgUrl": "http://www.oecd.org/economy/hungary-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/b2be698d-en/index.html?itemId=/content/component/b2be698d-en"
     }
   },
   {
     "id": "ICELAND",
     "en": {
       "label": "ICELAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zit",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPM",
       "oecdOrgUrl": "http://www.oecd.org/economy/iceland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/f287fca0-en/index.html?itemId=/content/component/f287fca0-en"
     },
     "fr": {
       "label": "ISLANDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zit",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRs",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Islande-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/f287fca0-en/index.html?itemId=/content/component/f287fca0-en"
     },
     "es": {
       "label": "ISLANDIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zit",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPM",
       "oecdOrgUrl": "http://www.oecd.org/economy/iceland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/f287fca0-en/index.html?itemId=/content/component/f287fca0-en"
     }
   },
   {
     "id": "INDIA",
     "en": {
       "label": "INDIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPI",
       "oecdOrgUrl": "http://www.oecd.org/economy/india-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/89dc83e2-en/index.html?itemId=/content/component/89dc83e2-en"
     },
     "fr": {
       "label": "INDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRn",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Inde-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/8/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "INDIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziz",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPI",
       "oecdOrgUrl": "http://www.oecd.org/economy/india-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/89dc83e2-en/index.html?itemId=/content/component/89dc83e2-en"
     }
   },
   {
     "id": "INDONESIA",
     "en": {
       "label": "INDONESIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPF",
       "oecdOrgUrl": "http://www.oecd.org/economy/indonesia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9f445bb9-en/index.html?itemId=/content/component/9f445bb9-en"
     },
     "fr": {
       "label": "INDONÉSIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRl",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Indonesie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9f445bb9-en/index.html?itemId=/content/component/9f445bb9-en"
     },
     "es": {
       "label": "INDONESIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziO",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPF",
       "oecdOrgUrl": "http://www.oecd.org/economy/indonesia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9f445bb9-en/index.html?itemId=/content/component/9f445bb9-en"
     }
   },
   {
     "id": "IRELAND",
     "en": {
       "label": "IRELAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPK",
       "oecdOrgUrl": "http://www.oecd.org/economy/ireland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/cb36cf31-en/index.html?itemId=/content/component/cb36cf31-en"
     },
     "fr": {
       "label": "IRLANDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRq",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Irlande-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/cb36cf31-en/index.html?itemId=/content/component/cb36cf31-en"
     },
     "es": {
       "label": "IRLANDA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziT",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPK",
       "oecdOrgUrl": "http://www.oecd.org/economy/ireland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/cb36cf31-en/index.html?itemId=/content/component/cb36cf31-en"
     }
   },
   {
     "id": "ISRAEL",
     "en": {
       "label": "ISRAEL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziX",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPO",
       "oecdOrgUrl": "http://www.oecd.org/economy/israel-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d91b5d66-en/index.html?itemId=/content/component/d91b5d66-en"
     },
     "fr": {
       "label": "ISRAËL",
       "dataPortalUrl": "https://data.oecd.org/chart/5ziX",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/israel-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d91b5d66-en/index.html?itemId=/content/component/d91b5d66-en"
     },
     "es": {
       "label": "ISRAEL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5ziX",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPO",
       "oecdOrgUrl": "http://www.oecd.org/economy/israel-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/d91b5d66-en/index.html?itemId=/content/component/d91b5d66-en"
     }
   },
   {
     "id": "ITALY",
     "en": {
       "label": "ITALY",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPQ",
       "oecdOrgUrl": "http://www.oecd.org/economy/italy-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ec49d24e-en/index.html?itemId=/content/component/ec49d24e-en"
     },
     "fr": {
       "label": "ITALIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRw",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/italie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/9/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "ITALIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPQ",
       "oecdOrgUrl": "http://www.oecd.org/economy/italy-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ec49d24e-en/index.html?itemId=/content/component/ec49d24e-en"
     }
   },
   {
     "id": "JAPAN",
     "en": {
       "label": "JAPAN",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj6",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPS",
       "oecdOrgUrl": "http://www.oecd.org/economy/japan-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/4b46f4a4-en/index.html?itemId=/content/component/4b46f4a4-en"
     },
     "fr": {
       "label": "JAPON",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj6",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRy",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/japon-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/10/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "JAPÓN",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj6",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPS",
       "oecdOrgUrl": "http://www.oecd.org/economy/japan-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/4b46f4a4-en/index.html?itemId=/content/component/4b46f4a4-en"
     }
   },
   {
     "id": "KOREA",
     "en": {
       "label": "KOREA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjc",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPU",
       "oecdOrgUrl": "http://www.oecd.org/economy/korea-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/711c8f72-en/index.html?itemId=/content/component/711c8f72-en"
     },
     "fr": {
       "label": "CORÉE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjc",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRA",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/coree-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/711c8f72-en/index.html?itemId=/content/component/711c8f72-en"
     },
     "es": {
       "label": "COREA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjc",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPU",
       "oecdOrgUrl": "http://www.oecd.org/economy/korea-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/711c8f72-en/index.html?itemId=/content/component/711c8f72-en"
     }
   },
   {
     "id": "LATVIA",
     "en": {
       "label": "LATVIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjg",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ0",
       "oecdOrgUrl": "http://www.oecd.org/economy/latvia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/a14d5bdc-en/index.html?itemId=/content/component/a14d5bdc-en"
     },
     "fr": {
       "label": "LETTONIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjg",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRG",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/lettonie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/a14d5bdc-en/index.html?itemId=/content/component/a14d5bdc-en"
     },
     "es": {
       "label": "LETONIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjg",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ0",
       "oecdOrgUrl": "http://www.oecd.org/economy/latvia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/a14d5bdc-en/index.html?itemId=/content/component/a14d5bdc-en"
     }
   },
   {
     "id": "LITHUANIA",
     "en": {
       "label": "LITHUANIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjl",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPW",
       "oecdOrgUrl": "http://www.oecd.org/economy/lithuania-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1e7f9534-en/index.html?itemId=/content/component/1e7f9534-en"
     },
     "fr": {
       "label": "LITUANIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjl",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRC",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/lituanie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1e7f9534-en/index.html?itemId=/content/component/1e7f9534-en"
     },
     "es": {
       "label": "LITUANIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjl",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPW",
       "oecdOrgUrl": "http://www.oecd.org/economy/lithuania-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1e7f9534-en/index.html?itemId=/content/component/1e7f9534-en"
     }
   },
   {
     "id": "LUXEMBOURG",
     "en": {
       "label": "LUXEMBOURG",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjr",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPY",
       "oecdOrgUrl": "http://www.oecd.org/economy/luxembourg-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/3832d56b-en/index.html?itemId=/content/component/3832d56b-en"
     },
     "fr": {
       "label": "LUXEMBOURG",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjr",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRE",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/luxembourg-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/11/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "LUXEMBURGO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjr",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPY",
       "oecdOrgUrl": "http://www.oecd.org/economy/luxembourg-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/3832d56b-en/index.html?itemId=/content/component/3832d56b-en"
     }
   },
   {
     "id": "MEXICO",
     "en": {
       "label": "MEXICO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjw",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ4",
       "oecdOrgUrl": "http://www.oecd.org/economy/mexico-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9bdbecb9-en/index.html?itemId=/content/component/9bdbecb9-en"
     },
     "fr": {
       "label": "MEXIQUE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjw",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRI",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/mexique-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9bdbecb9-en/index.html?itemId=/content/component/9bdbecb9-en"
     },
     "es": {
       "label": "MÉXICO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjw",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ4",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-mexico/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/9bdbecb9-en/index.html?itemId=/content/component/9bdbecb9-en"
     }
   },
   {
     "id": "NETHERLANDS",
     "en": {
       "label": "NETHERLANDS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ6",
       "oecdOrgUrl": "http://www.oecd.org/economy/netherlands-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1a3c8444-en/index.html?itemId=/content/component/1a3c8444-en"
     },
     "fr": {
       "label": "PAYS-BAS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRK",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Pays-Bas-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1a3c8444-en/index.html?itemId=/content/component/1a3c8444-en"
     },
     "es": {
       "label": "PAÍSES BAJOS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjC",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ6",
       "oecdOrgUrl": "http://www.oecd.org/economy/netherlands-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/1a3c8444-en/index.html?itemId=/content/component/1a3c8444-en"
     }
   },
   {
     "id": "NEW ZEALAND",
     "en": {
       "label": "NEW ZEALAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ8",
       "oecdOrgUrl": "http://www.oecd.org/economy/new-zealand-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/17c42ad0-en/index.html?itemId=/content/component/17c42ad0-en"
     },
     "fr": {
       "label": "NOUVELLE-ZÉLANDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRP",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/nouvelle-zelande-en-un-coup-d-oeil",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/17c42ad0-en/index.html?itemId=/content/component/17c42ad0-en"
     },
     "es": {
       "label": "NUEVA ZELANDA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjL",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ8",
       "oecdOrgUrl": "http://www.oecd.org/economy/new-zealand-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/17c42ad0-en/index.html?itemId=/content/component/17c42ad0-en"
     }
   },
   {
     "id": "NORWAY",
     "en": {
       "label": "NORWAY",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjR",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQb",
       "oecdOrgUrl": "http://www.oecd.org/economy/norway-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8d082142-en/index.html?itemId=/content/component/8d082142-en"
     },
     "fr": {
       "label": "NORVÈGE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjR",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRN",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/norvege-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8d082142-en/index.html?itemId=/content/component/8d082142-en"
     },
     "es": {
       "label": "NORUEGA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjR",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQb",
       "oecdOrgUrl": "http://www.oecd.org/economy/norway-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/8d082142-en/index.html?itemId=/content/component/8d082142-en"
     }
   },
   {
     "id": "POLAND",
     "en": {
       "label": "POLAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjX",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQd",
       "oecdOrgUrl": "http://www.oecd.org/economy/poland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/abc0a39a-en/index.html?itemId=/content/component/abc0a39a-en"
     },
     "fr": {
       "label": "POLOGNE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjX",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRR",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/pologne-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/abc0a39a-en/index.html?itemId=/content/component/abc0a39a-en"
     },
     "es": {
       "label": "POLONIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjX",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQd",
       "oecdOrgUrl": "http://www.oecd.org/economy/poland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/abc0a39a-en/index.html?itemId=/content/component/abc0a39a-en"
     }
   },
   {
     "id": "PORTUGAL",
     "en": {
       "label": "PORTUGAL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk3",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ1",
       "oecdOrgUrl": "http://www.oecd.org/economy/portugal-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/01c26d62-en/index.html?itemId=/content/component/01c26d62-en"
     },
     "fr": {
       "label": "PORTUGAL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk3",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRV",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/portugal-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/01c26d62-en/index.html?itemId=/content/component/01c26d62-en"
     },
     "es": {
       "label": "PORTUGAL",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk3",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQ1",
       "oecdOrgUrl": "http://www.oecd.org/economy/portugal-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/01c26d62-en/index.html?itemId=/content/component/01c26d62-en"
+    }
+  },
+  {
+    "id": "ROMANIA",
+    "en": {
+      "label": "ROMANIA",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCP",
+      "oecdOrgUrl": "http://www.oecd.org/economy/romania-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/43d02f26-en/index.html?itemId=/content/component/43d02f26-en"
+    },
+    "fr": {
+      "label": "ROUMANIE",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCQ",
+      "oecdOrgUrl": "http://www.oecd.org/economy/romania-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/43d02f26-en/index.html?itemId=/content/component/43d02f26-en"
+    },
+    "es": {
+      "label": "RUMANIA",
+      "dataPortalUrl": "https://data.oecd.org/chart/5LCP",
+      "oecdOrgUrl": "http://www.oecd.org/economy/romania-economic-snapshot/",
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/43d02f26-en/index.html?itemId=/content/component/43d02f26-en"
     }
   },
   {
     "id": "RUSSIA",
     "en": {
       "label": "RUSSIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zka",
-      "oecdOrgUrl": "http://www.oecd.org/economy/russia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQf",
+      "oecdOrgUrl": "https://www.oecd-ilibrary.org/search?option1=pub_themeId&value1=theme%2Foecd-79&option2=pub_countryId&value2=country%2Fru",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/oecd-economic-outlook-volume-2019-issue-2_9b89401b-en"
     },
     "fr": {
       "label": "RUSSIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zka",
-      "oecdOrgUrl": "http://www.oecd.org/fr/economie/Russie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRX",
+      "oecdOrgUrl": "https://www.oecd-ilibrary.org/search?option1=pub_themeId&value1=theme%2Foecd-79&option2=pub_countryId&value2=country%2Fru",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/oecd-economic-outlook-volume-2019-issue-2_9b89401b-en"
     },
     "es": {
       "label": "RUSIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zka",
-      "oecdOrgUrl": "http://www.oecd.org/economy/russia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQf",
+      "oecdOrgUrl": "https://www.oecd-ilibrary.org/search?option1=pub_themeId&value1=theme%2Foecd-79&option2=pub_countryId&value2=country%2Fru",
+      "webBookUrl": "https://www.oecd-ilibrary.org/economics/oecd-economic-outlook-volume-2019-issue-2_9b89401b-en"
     }
   },
   {
     "id": "SLOVAK REPUBLIC",
     "en": {
       "label": "SLOVAK REPUBLIC",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkh",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQh",
       "oecdOrgUrl": "http://www.oecd.org/economy/slovak-republic-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/e9441eba-en/index.html?itemId=/content/component/e9441eba-en"
     },
     "fr": {
       "label": "RÉPUBLIQUE SLOVAQUE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkh",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRZ",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/republique-slovaque-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/e9441eba-en/index.html?itemId=/content/component/e9441eba-en"
     },
     "es": {
       "label": "REPÚBLICA ESLOVACA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkh",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQh",
       "oecdOrgUrl": "http://www.oecd.org/economy/slovak-republic-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/e9441eba-en/index.html?itemId=/content/component/e9441eba-en"
     }
   },
   {
     "id": "SLOVENIA",
     "en": {
       "label": "SLOVENIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkn",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQj",
       "oecdOrgUrl": "http://www.oecd.org/economy/slovenia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ec6767d6-en/index.html?itemId=/content/component/ec6767d6-en"
     },
     "fr": {
       "label": "SLOVÉNIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkn",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JS1",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Slovenie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ec6767d6-en/index.html?itemId=/content/component/ec6767d6-en"
     },
     "es": {
       "label": "ESLOVENIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkn",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQj",
       "oecdOrgUrl": "http://www.oecd.org/economy/slovenia-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/ec6767d6-en/index.html?itemId=/content/component/ec6767d6-en"
     }
   },
   {
     "id": "SOUTH AFRICA",
     "en": {
       "label": "SOUTH AFRICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkt",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQr",
       "oecdOrgUrl": "http://www.oecd.org/economy/south-africa-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/c15d5f95-en/index.html?itemId=/content/component/c15d5f95-en"
     },
     "fr": {
       "label": "AFRIQUE DU SUD",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkt",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQt",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/afrique-du-sud-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/c15d5f95-en/index.html?itemId=/content/component/c15d5f95-en"
     },
     "es": {
       "label": "SUDÁFRICA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkt",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQr",
       "oecdOrgUrl": "http://www.oecd.org/economy/south-africa-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/c15d5f95-en/index.html?itemId=/content/component/c15d5f95-en"
     }
   },
   {
     "id": "SPAIN",
     "en": {
       "label": "SPAIN",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkv",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPu",
       "oecdOrgUrl": "http://www.oecd.org/economy/spain-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7e131e00-en/index.html?itemId=/content/component/7e131e00-en"
     },
     "fr": {
       "label": "ESPAGNE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkv",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JR6",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/espagne-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7e131e00-en/index.html?itemId=/content/component/7e131e00-en"
     },
     "es": {
       "label": "ESPAÑA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkv",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPu",
       "oecdOrgUrl": "http://www.oecd.org/economy/panorama-economico-espana/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7e131e00-en/index.html?itemId=/content/component/7e131e00-en"
     }
   },
   {
     "id": "SWEDEN",
     "en": {
       "label": "SWEDEN",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkk",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQl",
       "oecdOrgUrl": "http://www.oecd.org/economy/sweden-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7a4355f9-en/index.html?itemId=/content/component/7a4355f9-en"
     },
     "fr": {
       "label": "SUÈDE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkk",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JS3",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/etudes/economie-suede-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7a4355f9-en/index.html?itemId=/content/component/7a4355f9-en"
     },
     "es": {
       "label": "SUECIA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zkk",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQl",
       "oecdOrgUrl": "http://www.oecd.org/economy/sweden-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/7a4355f9-en/index.html?itemId=/content/component/7a4355f9-en"
     }
   },
   {
     "id": "SWITZERLAND",
     "en": {
       "label": "SWITZERLAND",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPd",
       "oecdOrgUrl": "http://www.oecd.org/economy/switzerland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6108a044-en/index.html?itemId=/content/component/6108a044-en"
     },
     "fr": {
       "label": "SUISSE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQO",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Suisse-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/13/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "SUIZA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zk1",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPd",
       "oecdOrgUrl": "http://www.oecd.org/economy/switzerland-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/6108a044-en/index.html?itemId=/content/component/6108a044-en"
     }
   },
   {
     "id": "TURKEY",
     "en": {
       "label": "TURKEY",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjN",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQn",
       "oecdOrgUrl": "http://www.oecd.org/economy/turkey-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/fd5d0435-en/index.html?itemId=/content/component/fd5d0435-en"
     },
     "fr": {
       "label": "TURQUIE",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjN",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JS5",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Turquie-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/fd5d0435-en/index.html?itemId=/content/component/fd5d0435-en"
     },
     "es": {
       "label": "TURQUÍA",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjN",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQn",
       "oecdOrgUrl": "http://www.oecd.org/economy/turkey-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/fd5d0435-en/index.html?itemId=/content/component/fd5d0435-en"
     }
   },
   {
     "id": "UNITED KINGDOM",
     "en": {
       "label": "UNITED KINGDOM",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjs",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPA",
       "oecdOrgUrl": "http://www.oecd.org/economy/united-kingdom-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/62f48ee1-en/index.html?itemId=/content/component/62f48ee1-en"
     },
     "fr": {
-      "label": "ROYAUME-UNIS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjs",
+      "label": "ROYAUME-UNI",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JRe",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Royaume-uni-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/12/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "REINO UNIDO",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zjs",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JPA",
       "oecdOrgUrl": "http://www.oecd.org/economy/united-kingdom-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/62f48ee1-en/index.html?itemId=/content/component/62f48ee1-en"
     }
   },
   {
     "id": "UNITED STATES",
     "en": {
       "label": "UNITED STATES",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQo",
       "oecdOrgUrl": "http://www.oecd.org/economy/united-states-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/a724e469-en/index.html?itemId=/content/component/a724e469-en"
     },
     "fr": {
       "label": "ÉTATS-UNIS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JS8",
       "oecdOrgUrl": "http://www.oecd.org/fr/economie/Etats-Unis-en-un-coup-d-oeil/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/77c8f557-fr/1/2/3/6/index.html?itemId=/content/publication/77c8f557-fr&_csp_=edfbb876797206444fc885e7c1516a1e&itemIGO=oecd&itemContentType=book"
     },
     "es": {
       "label": "ESTADOS UNIDOS",
-      "dataPortalUrl": "https://data.oecd.org/chart/5zj8",
+      "dataPortalUrl": "https://data.oecd.org/chart/5JQo",
       "oecdOrgUrl": "http://www.oecd.org/economy/united-states-economic-snapshot/",
-      "webBookUrl": "http://www.webbook.org"
+      "webBookUrl": "https://www.oecd-ilibrary.org/sites/a724e469-en/index.html?itemId=/content/component/a724e469-en"
     }
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "en": {
+    "index": {
+      "index-title": "OECD Economic Outlook, November 2019",
+      "index-description": "Description EN"
+    }
+  },
+  "fr": {
+    "index": {
+      "index-title": "Perspectives économiques de l'OCDE, Novembre 2019",
+      "index-description": "Description FR"
+    }
+  },
+  "es": {
+    "index": {
+      "index-title": "Perspectivas economicas de la OCDE, Noviembre 2019",
+      "index-description": "Description ES"
+    }
+  }
+}
