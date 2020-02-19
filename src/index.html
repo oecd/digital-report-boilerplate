@@ -76,13 +76,13 @@
 	
 		<!-- Publication title and header #1 -->
 		${require('./modules/header-publication/header-publication.html')}
-		<!-- Publication header RESPONSIVE VIDEO  -->
-		${require('./modules/header-responsive/header-responsive.html')}
-
+		<!-- Publication header RESPONSIVE VIDEO  
+		\${require('./modules/header-responsive/header-responsive.html')}
+		-->
 		<!-- Sticky header menu -->
 		${require('./modules/sticky-header/sticky-header.html')}
 
-		<!-- Different blockquote tyme -->
+		<!-- Different blockquote type -->
 		<a name="quote"></a>
 		<br/>
 		<div class="site-content site-content--gray" id="quote">
@@ -133,7 +133,7 @@
 
 		<a name="messages"></a>
 		<!-- Key-message: 3 flipping panel-->
-		<div class="site-content site-content--secondary" id="message">
+		<div class="site-content site-content--secondary" id="messages">
 			${require('./modules/key-messages/key-messages.html')}
 		</div>
 
@@ -150,7 +150,7 @@
 			${require('./modules/projections-by-country/projections-by-country.html')}
 		</div>		
 
-	<!-- block with embeded iframe -->
+		<!-- block with embeded iframe -->
 		<a name="compare-your-country"></a>
 		<br/>
 		<div class="site-content" id="compare-your-country">
@@ -181,12 +181,12 @@
 			${require('./modules/key-data/key-data.html')}
 		</div>
 			
-		<a name="watch-interview"></a>
+		<!--/.Optional header with background image and video overlapping on right - Publication title and header #3 
+				<a name="watch-interview"></a>
 		<br/>
 		<div id="watch-interview">
-			<!--/. Optional header with background image and video overlapping on right - Publication title and header #3 -->
-			${require('./modules/header-video/header-video.html')}
-		</div>
+			\${require('./modules/header-video/header-video.html')}
+		</div> -->
 
 		<!-- SPECIAL MODEL @2 review. Recomend not to use, UX issues 
 				<div class="site-content site-content--panel">
@@ -203,15 +203,19 @@
 					</div>
 				</div> -->
 		
-	</div><!-- / end .site-container -->
-
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				${require('./modules/credits/credits.html')}
+			</div>
+		</div>
+	</div>
 	<!-- always required -->
 	${require('./modules/go-top-btn/go-top-btn.html')}
-	${require('./modules/credits/credits.html')}
 	${require('./modules/footer/footer.html')}
 	${require('./modules/pop-in/pop-in.html')}
 	${require('./modules/social-sticky/social-sticky.html')}
-</div>
+</div><!-- / end .site-container -->
 
 <!-- navigation object : Google Analytics -->
 <script type="text/javascript">
