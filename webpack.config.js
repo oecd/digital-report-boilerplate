@@ -5,6 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const CopyPlugin = require('copy-webpack-plugin');
+const MergeJsonWebpackPlugin = require('merge-jsons-webpack-plugin');
 
 const appConfig = require('./src/config');
 
@@ -139,6 +140,17 @@ module.exports = {
 				to: path.join(__dirname, 'dist/web.config'),
 				toType: 'file'
 			}
-    ]),
+		]),
+		new MergeJsonWebpackPlugin({
+			"debug": true,
+			"output": {
+				"groupBy": [
+					{
+						"pattern": "**/*-resources.json",
+						"fileName": "./i18n.json"
+					}
+				]
+			}
+		}),
 	],
 };
