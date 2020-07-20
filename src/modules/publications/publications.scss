@@ -12,7 +12,10 @@
 			margin: 0;
 		}
 	}
-
+	&__doi {
+		font-size: .7rem;
+		color: #7c7c7d;
+	}
 	&__intro {
 		margin: em(15px, 24px) 0 em(20px, 24px);
 		@include font-size(18px);
